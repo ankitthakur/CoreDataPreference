@@ -15,7 +15,7 @@
 		978A19C021E8F2E100A271A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978A19BE21E8F2E100A271A8 /* LaunchScreen.storyboard */; };
 		978A19CB21E8F2E100A271A8 /* CoreDataPrefSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978A19CA21E8F2E100A271A8 /* CoreDataPrefSampleTests.swift */; };
 		978A19D721E8F30500A271A8 /* CoreDataPref.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978A19D621E8F30500A271A8 /* CoreDataPref.framework */; };
-		97FA8E5F21EA36B300AFD71F /* EncryptedCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FA8E5E21EA36B300AFD71F /* EncryptedCoreData.framework */; };
+		97FA8E7121EA433300AFD71F /* EncryptedCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FA8E7021EA433300AFD71F /* EncryptedCoreData.framework */; };
 		EDA1CD255AC4AEDBF5FED73C /* Pods_CoreDataPrefSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18289B1046D38805A2794DB /* Pods_CoreDataPrefSampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +48,8 @@
 		978A19DA21E8F4E700A271A8 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		978A19DE21E8F56500A271A8 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FA8E5E21EA36B300AFD71F /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FA8E6C21EA42FB00AFD71F /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FA8E7021EA433300AFD71F /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18289B1046D38805A2794DB /* Pods_CoreDataPrefSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataPrefSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FDFFF42772306D000A415B /* Pods_CoreDataPrefSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataPrefSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63D94330A60ABE4994C39E1 /* Pods-CoreDataPrefSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefSampleTests/Pods-CoreDataPrefSampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97FA8E5F21EA36B300AFD71F /* EncryptedCoreData.framework in Frameworks */,
+				97FA8E7121EA433300AFD71F /* EncryptedCoreData.framework in Frameworks */,
 				978A19D721E8F30500A271A8 /* CoreDataPref.framework in Frameworks */,
 				5BE9F6F48C08AA9655D2B50D /* Pods_CoreDataPrefSample.framework in Frameworks */,
 			);
@@ -131,6 +133,8 @@
 		978A19D521E8F30500A271A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97FA8E7021EA433300AFD71F /* EncryptedCoreData.framework */,
+				97FA8E6C21EA42FB00AFD71F /* EncryptedCoreData.framework */,
 				97FA8E5E21EA36B300AFD71F /* EncryptedCoreData.framework */,
 				978A19DE21E8F56500A271A8 /* EncryptedCoreData.framework */,
 				978A19DA21E8F4E700A271A8 /* SQLCipher.framework */,
@@ -296,7 +300,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreDataPrefSample/Pods-CoreDataPrefSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -399,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -454,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
