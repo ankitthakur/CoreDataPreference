@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CoreDataPref"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Using Core Data similar to UserDefault"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CoreDataPref/Sources/*.{swift}"
+  s.source_files  = "Sources/**/*.swift"
   # s.exclude_files = "Sources/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  # s.framework  = "EncryptedCoreData"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
