@@ -1,0 +1,1023 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"CoreDataPref::CoreDataPrefPackageTests::ProductTarget" /* CoreDataPrefPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_64 /* Build configuration list for PBXAggregateTarget "CoreDataPrefPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_67 /* PBXTargetDependency */,
+			);
+			name = CoreDataPrefPackageTests;
+			productName = CoreDataPrefPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		58E4AD8B20CF66F0A6EB4908 /* Pods_CoreDataPref.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0D514BF1E1F33163D170A3 /* Pods_CoreDataPref.framework */; };
+		97BA21DD21E8F9570051BC57 /* CDPref.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97BA21DB21E8F9570051BC57 /* CDPref.xcdatamodeld */; };
+		B413525605F556AE4A9761F6 /* Pods_CoreDataPrefTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26975AE4D7DA16EC8B69329 /* Pods_CoreDataPrefTests.framework */; };
+		F24AFE9F176E93A0E05E34F4 /* Pods_CoreDataPrefPackageDescription.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310797AC4CC61CC19886534 /* Pods_CoreDataPrefPackageDescription.framework */; };
+		OBJ_100 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Package.swift */; };
+		OBJ_46 /* ManagedObectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ManagedObectExtension.swift */; };
+		OBJ_47 /* CoreDataPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CoreDataPref.swift */; };
+		OBJ_48 /* CoreDataPrefCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CoreDataPrefCollection.swift */; };
+		OBJ_49 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CoreDataManager.swift */; };
+		OBJ_50 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Logger.swift */; };
+		OBJ_51 /* CDDefault+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CDDefault+CoreDataClass.swift */; };
+		OBJ_52 /* CDDefault+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CDDefault+CoreDataProperties.swift */; };
+		OBJ_54 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyBeaver::SwiftyBeaver::Product" /* SwiftyBeaver.framework */; };
+		OBJ_62 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_73 /* CoreDataPrefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* CoreDataPrefTests.swift */; };
+		OBJ_74 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* XCTestManifests.swift */; };
+		OBJ_76 /* CoreDataPref.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */; };
+		OBJ_77 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyBeaver::SwiftyBeaver::Product" /* SwiftyBeaver.framework */; };
+		OBJ_84 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AES256CBC.swift */; };
+		OBJ_85 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Base64.swift */; };
+		OBJ_86 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* BaseDestination.swift */; };
+		OBJ_87 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ConsoleDestination.swift */; };
+		OBJ_88 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Extensions.swift */; };
+		OBJ_89 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* FileDestination.swift */; };
+		OBJ_90 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Filter.swift */; };
+		OBJ_91 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* GoogleCloudDestination.swift */; };
+		OBJ_92 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* SBPlatformDestination.swift */; };
+		OBJ_93 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* SwiftyBeaver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		978A19A521E8DF5600A271A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyBeaver::SwiftyBeaver";
+			remoteInfo = SwiftyBeaver;
+		};
+		978A19A621E8DF5600A271A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CoreDataPref::CoreDataPref";
+			remoteInfo = CoreDataPref;
+		};
+		978A19A721E8DF5600A271A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyBeaver::SwiftyBeaver";
+			remoteInfo = SwiftyBeaver;
+		};
+		978A19A821E8DF5800A271A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CoreDataPref::CoreDataPrefTests";
+			remoteInfo = CoreDataPrefTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019A8A09282F78809C7569AC /* Pods-CoreDataPref.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPref.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPref/Pods-CoreDataPref.release.xcconfig"; sourceTree = "<group>"; };
+		1F0D514BF1E1F33163D170A3 /* Pods_CoreDataPref.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataPref.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC4773AF06B0BFB8FF1FE3A /* Pods-CoreDataPrefPackageDescription.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefPackageDescription.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefPackageDescription/Pods-CoreDataPrefPackageDescription.debug.xcconfig"; sourceTree = "<group>"; };
+		41D90D399041B2AB6BDA8052 /* Pods-CoreDataPrefTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefTests/Pods-CoreDataPrefTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5310797AC4CC61CC19886534 /* Pods_CoreDataPrefPackageDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataPrefPackageDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		538A9B6AEE2EF98223353C13 /* Pods-CoreDataPref.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPref.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPref/Pods-CoreDataPref.debug.xcconfig"; sourceTree = "<group>"; };
+		5CFFA26B54FAE2D1E4B39615 /* Pods-CoreDataPrefTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefTests/Pods-CoreDataPrefTests.release.xcconfig"; sourceTree = "<group>"; };
+		971E7AD521E9EB200062040A /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		978A19DC21E8F51A00A271A8 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BA21DC21E8F9570051BC57 /* CDPref.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDPref.xcdatamodel; sourceTree = "<group>"; };
+		9E66F344CAAA65C6DD67E304 /* Pods-CoreDataPrefPackageDescription.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefPackageDescription.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefPackageDescription/Pods-CoreDataPrefPackageDescription.release.xcconfig"; sourceTree = "<group>"; };
+		"CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreDataPref.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CoreDataPref::CoreDataPrefTests::Product" /* CoreDataPrefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CoreDataPrefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26975AE4D7DA16EC8B69329 /* Pods_CoreDataPrefTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataPrefTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* ManagedObectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObectExtension.swift; sourceTree = "<group>"; };
+		OBJ_11 /* CoreDataPref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPref.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CoreDataPrefCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPrefCollection.swift; sourceTree = "<group>"; };
+		OBJ_14 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		OBJ_18 /* CDDefault+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDDefault+CoreDataClass.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* CDDefault+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDDefault+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		OBJ_22 /* CoreDataPrefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPrefTests.swift; sourceTree = "<group>"; };
+		OBJ_23 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ankitthakur/Desktop/CoreDataPref/.build/checkouts/SwiftyBeaver.git--4246793063928416936/Package.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* AES256CBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256CBC.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
+		OBJ_29 /* BaseDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDestination.swift; sourceTree = "<group>"; };
+		OBJ_30 /* ConsoleDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		OBJ_32 /* FileDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		OBJ_34 /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCloudDestination.swift; sourceTree = "<group>"; };
+		OBJ_35 /* SBPlatformDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBPlatformDestination.swift; sourceTree = "<group>"; };
+		OBJ_36 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyBeaver.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"SwiftyBeaver::SwiftyBeaver::Product" /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4726D34564AB97AC33DDFD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9DCA341B3D51D9FDBA6F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24AFE9F176E93A0E05E34F4 /* Pods_CoreDataPrefPackageDescription.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_54 /* SwiftyBeaver.framework in Frameworks */,
+				58E4AD8B20CF66F0A6EB4908 /* Pods_CoreDataPref.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_76 /* CoreDataPref.framework in Frameworks */,
+				OBJ_77 /* SwiftyBeaver.framework in Frameworks */,
+				B413525605F556AE4A9761F6 /* Pods_CoreDataPrefTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5D2267F068334C64600821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971E7AD521E9EB200062040A /* EncryptedCoreData.framework */,
+				978A19DC21E8F51A00A271A8 /* EncryptedCoreData.framework */,
+				1F0D514BF1E1F33163D170A3 /* Pods_CoreDataPref.framework */,
+				5310797AC4CC61CC19886534 /* Pods_CoreDataPrefPackageDescription.framework */,
+				D26975AE4D7DA16EC8B69329 /* Pods_CoreDataPrefTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F5E49B5312C21AF1658245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				538A9B6AEE2EF98223353C13 /* Pods-CoreDataPref.debug.xcconfig */,
+				019A8A09282F78809C7569AC /* Pods-CoreDataPref.release.xcconfig */,
+				3CC4773AF06B0BFB8FF1FE3A /* Pods-CoreDataPrefPackageDescription.debug.xcconfig */,
+				9E66F344CAAA65C6DD67E304 /* Pods-CoreDataPrefPackageDescription.release.xcconfig */,
+				41D90D399041B2AB6BDA8052 /* Pods-CoreDataPrefTests.debug.xcconfig */,
+				5CFFA26B54FAE2D1E4B39615 /* Pods-CoreDataPrefTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		OBJ_13 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				97BA21DB21E8F9570051BC57 /* CDPref.xcdatamodeld */,
+				OBJ_14 /* CoreDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* CDDefault+CoreDataClass.swift */,
+				OBJ_19 /* CDDefault+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* CoreDataPrefTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_21 /* CoreDataPrefTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* CoreDataPrefTests.swift */,
+				OBJ_23 /* XCTestManifests.swift */,
+			);
+			name = CoreDataPrefTests;
+			path = Tests/CoreDataPrefTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* SwiftyBeaver 1.6.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_25 /* SwiftyBeaver 1.6.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* Package.swift */,
+				OBJ_27 /* AES256CBC.swift */,
+				OBJ_28 /* Base64.swift */,
+				OBJ_29 /* BaseDestination.swift */,
+				OBJ_30 /* ConsoleDestination.swift */,
+				OBJ_31 /* Extensions.swift */,
+				OBJ_32 /* FileDestination.swift */,
+				OBJ_33 /* Filter.swift */,
+				OBJ_34 /* GoogleCloudDestination.swift */,
+				OBJ_35 /* SBPlatformDestination.swift */,
+				OBJ_36 /* SwiftyBeaver.swift */,
+			);
+			name = "SwiftyBeaver 1.6.1";
+			path = ".build/checkouts/SwiftyBeaver.git--4246793063928416936/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"CoreDataPref::CoreDataPrefTests::Product" /* CoreDataPrefTests.xctest */,
+				"SwiftyBeaver::SwiftyBeaver::Product" /* SwiftyBeaver.framework */,
+				"CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_20 /* Tests */,
+				OBJ_24 /* Dependencies */,
+				OBJ_37 /* Products */,
+				B2F5E49B5312C21AF1658245 /* Pods */,
+				2A5D2267F068334C64600821 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CoreDataPref */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* CoreDataPref */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* CoreDataHelper */,
+				OBJ_11 /* CoreDataPref.swift */,
+				OBJ_12 /* CoreDataPrefCollection.swift */,
+				OBJ_13 /* DataManager */,
+				OBJ_15 /* Logger */,
+				OBJ_17 /* Model */,
+			);
+			name = CoreDataPref;
+			path = Sources/CoreDataPref;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* CoreDataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* ManagedObectExtension.swift */,
+			);
+			path = CoreDataHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"CoreDataPref::CoreDataPref" /* CoreDataPref */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_42 /* Build configuration list for PBXNativeTarget "CoreDataPref" */;
+			buildPhases = (
+				E9A0888998AC5FAD97603001 /* [CP] Check Pods Manifest.lock */,
+				OBJ_45 /* Sources */,
+				OBJ_53 /* Frameworks */,
+				97BA21DA21E8F9280051BC57 /* Resources */,
+				971E7AD821E9F3E80062040A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_55 /* PBXTargetDependency */,
+			);
+			name = CoreDataPref;
+			productName = CoreDataPref;
+			productReference = "CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CoreDataPref::CoreDataPrefTests" /* CoreDataPrefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "CoreDataPrefTests" */;
+			buildPhases = (
+				BDDF098A53165642AFCAA061 /* [CP] Check Pods Manifest.lock */,
+				OBJ_72 /* Sources */,
+				OBJ_75 /* Frameworks */,
+				F8AF4A04C81AC206D34E4D90 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_78 /* PBXTargetDependency */,
+				OBJ_79 /* PBXTargetDependency */,
+			);
+			name = CoreDataPrefTests;
+			productName = CoreDataPrefTests;
+			productReference = "CoreDataPref::CoreDataPrefTests::Product" /* CoreDataPrefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CoreDataPref::SwiftPMPackageDescription" /* CoreDataPrefPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_58 /* Build configuration list for PBXNativeTarget "CoreDataPrefPackageDescription" */;
+			buildPhases = (
+				A1D146C3F935A71E5CD88FE8 /* [CP] Check Pods Manifest.lock */,
+				OBJ_61 /* Sources */,
+				FD9DCA341B3D51D9FDBA6F92 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataPrefPackageDescription;
+			productName = CoreDataPrefPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftyBeaver::SwiftPMPackageDescription" /* SwiftyBeaverPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_96 /* Build configuration list for PBXNativeTarget "SwiftyBeaverPackageDescription" */;
+			buildPhases = (
+				OBJ_99 /* Sources */,
+				4726D34564AB97AC33DDFD99 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaverPackageDescription;
+			productName = SwiftyBeaverPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftyBeaver::SwiftyBeaver" /* SwiftyBeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_80 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildPhases = (
+				OBJ_83 /* Sources */,
+				OBJ_94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = "SwiftyBeaver::SwiftyBeaver::Product" /* SwiftyBeaver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					"SwiftyBeaver::SwiftyBeaver" = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CoreDataPref" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"CoreDataPref::CoreDataPref" /* CoreDataPref */,
+				"CoreDataPref::SwiftPMPackageDescription" /* CoreDataPrefPackageDescription */,
+				"CoreDataPref::CoreDataPrefPackageTests::ProductTarget" /* CoreDataPrefPackageTests */,
+				"CoreDataPref::CoreDataPrefTests" /* CoreDataPrefTests */,
+				"SwiftyBeaver::SwiftyBeaver" /* SwiftyBeaver */,
+				"SwiftyBeaver::SwiftPMPackageDescription" /* SwiftyBeaverPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97BA21DA21E8F9280051BC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		971E7AD821E9F3E80062040A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		A1D146C3F935A71E5CD88FE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDataPrefPackageDescription-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDDF098A53165642AFCAA061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDataPrefTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A0888998AC5FAD97603001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDataPref-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8AF4A04C81AC206D34E4D90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoreDataPrefTests/Pods-CoreDataPrefTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EncryptedCoreData/EncryptedCoreData.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EncryptedCoreData.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreDataPrefTests/Pods-CoreDataPrefTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_46 /* ManagedObectExtension.swift in Sources */,
+				OBJ_47 /* CoreDataPref.swift in Sources */,
+				OBJ_48 /* CoreDataPrefCollection.swift in Sources */,
+				OBJ_49 /* CoreDataManager.swift in Sources */,
+				OBJ_50 /* Logger.swift in Sources */,
+				OBJ_51 /* CDDefault+CoreDataClass.swift in Sources */,
+				OBJ_52 /* CDDefault+CoreDataProperties.swift in Sources */,
+				97BA21DD21E8F9570051BC57 /* CDPref.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_62 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_73 /* CoreDataPrefTests.swift in Sources */,
+				OBJ_74 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_84 /* AES256CBC.swift in Sources */,
+				OBJ_85 /* Base64.swift in Sources */,
+				OBJ_86 /* BaseDestination.swift in Sources */,
+				OBJ_87 /* ConsoleDestination.swift in Sources */,
+				OBJ_88 /* Extensions.swift in Sources */,
+				OBJ_89 /* FileDestination.swift in Sources */,
+				OBJ_90 /* Filter.swift in Sources */,
+				OBJ_91 /* GoogleCloudDestination.swift in Sources */,
+				OBJ_92 /* SBPlatformDestination.swift in Sources */,
+				OBJ_93 /* SwiftyBeaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_100 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyBeaver::SwiftyBeaver" /* SwiftyBeaver */;
+			targetProxy = 978A19A521E8DF5600A271A8 /* PBXContainerItemProxy */;
+		};
+		OBJ_67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CoreDataPref::CoreDataPrefTests" /* CoreDataPrefTests */;
+			targetProxy = 978A19A821E8DF5800A271A8 /* PBXContainerItemProxy */;
+		};
+		OBJ_78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CoreDataPref::CoreDataPref" /* CoreDataPref */;
+			targetProxy = 978A19A621E8DF5600A271A8 /* PBXContainerItemProxy */;
+		};
+		OBJ_79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyBeaver::SwiftyBeaver" /* SwiftyBeaver */;
+			targetProxy = 978A19A721E8DF5600A271A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538A9B6AEE2EF98223353C13 /* Pods-CoreDataPref.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CoreDataPref.xcodeproj/CoreDataPref_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CoreDataPref;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CoreDataPref;
+			};
+			name = Debug;
+		};
+		OBJ_44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019A8A09282F78809C7569AC /* Pods-CoreDataPref.release.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CoreDataPref.xcodeproj/CoreDataPref_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CoreDataPref;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CoreDataPref;
+			};
+			name = Release;
+		};
+		OBJ_59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC4773AF06B0BFB8FF1FE3A /* Pods-CoreDataPrefPackageDescription.debug.xcconfig */;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E66F344CAAA65C6DD67E304 /* Pods-CoreDataPrefPackageDescription.release.xcconfig */;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		OBJ_66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		OBJ_70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D90D399041B2AB6BDA8052 /* Pods-CoreDataPrefTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CoreDataPref.xcodeproj/CoreDataPrefTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CoreDataPrefTests;
+			};
+			name = Debug;
+		};
+		OBJ_71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFFA26B54FAE2D1E4B39615 /* Pods-CoreDataPrefTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CoreDataPref.xcodeproj/CoreDataPrefTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CoreDataPrefTests;
+			};
+			name = Release;
+		};
+		OBJ_81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CoreDataPref.xcodeproj/SwiftyBeaver_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyBeaver;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftyBeaver;
+			};
+			name = Debug;
+		};
+		OBJ_82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CoreDataPref.xcodeproj/SwiftyBeaver_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyBeaver;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftyBeaver;
+			};
+			name = Release;
+		};
+		OBJ_97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "CoreDataPref" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_42 /* Build configuration list for PBXNativeTarget "CoreDataPref" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_43 /* Debug */,
+				OBJ_44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_58 /* Build configuration list for PBXNativeTarget "CoreDataPrefPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_59 /* Debug */,
+				OBJ_60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_64 /* Build configuration list for PBXAggregateTarget "CoreDataPrefPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_65 /* Debug */,
+				OBJ_66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_69 /* Build configuration list for PBXNativeTarget "CoreDataPrefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_70 /* Debug */,
+				OBJ_71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_80 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_81 /* Debug */,
+				OBJ_82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_96 /* Build configuration list for PBXNativeTarget "SwiftyBeaverPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_97 /* Debug */,
+				OBJ_98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97BA21DB21E8F9570051BC57 /* CDPref.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97BA21DC21E8F9570051BC57 /* CDPref.xcdatamodel */,
+			);
+			currentVersion = 97BA21DC21E8F9570051BC57 /* CDPref.xcdatamodel */;
+			name = CDPref.xcdatamodeld;
+			path = ../Model/CDPref.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
