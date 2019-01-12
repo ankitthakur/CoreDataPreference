@@ -9,20 +9,29 @@ PODS:
   - SwiftyBeaver (1.6.1)
 
 DEPENDENCIES:
-  - EncryptedCoreData
+  - EncryptedCoreData (from `https://github.com/project-imas/encrypted-core-data`, commit `b97ffaf2f19dad4d1558bc9b0668cc2e09d17347`)
   - SwiftyBeaver
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - EncryptedCoreData
     - SQLCipher
     - SwiftyBeaver
+
+EXTERNAL SOURCES:
+  EncryptedCoreData:
+    :commit: b97ffaf2f19dad4d1558bc9b0668cc2e09d17347
+    :git: https://github.com/project-imas/encrypted-core-data
+
+CHECKOUT OPTIONS:
+  EncryptedCoreData:
+    :commit: b97ffaf2f19dad4d1558bc9b0668cc2e09d17347
+    :git: https://github.com/project-imas/encrypted-core-data
 
 SPEC CHECKSUMS:
   EncryptedCoreData: f6762fb05f88a52f36c5648659abc91b57f244b4
   SQLCipher: f9fcf29b2e59ced7defc2a2bdd0ebe79b40d4990
   SwiftyBeaver: ccfcdf85a04d429f1633f668650b0ce8020bda3a
 
-PODFILE CHECKSUM: fa348c5626eba11f460c5236ae608ee2d2a45ea9
+PODFILE CHECKSUM: eb14297afdc76787e207d9871a77ba523263d4cf
 
 COCOAPODS: 1.5.3
