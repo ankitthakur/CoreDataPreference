@@ -6,6 +6,8 @@
 	<dict>
 		<key>CoreDataPref-Package.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -16,21 +18,29 @@
 		</dict>
 		<key>CoreDataPrefPackageDescription.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
 		<key>CoreDataPrefPackageTests.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
 		<key>SwiftyBeaver.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
 		<key>SwiftyBeaverPackageDescription.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
@@ -38,6 +48,26 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>CoreDataPref::CoreDataPref</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CoreDataPref::CoreDataPrefPackageTests::ProductTarget</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CoreDataPref::SwiftPMPackageDescription</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>SwiftyBeaver::SwiftPMPackageDescription</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>SwiftyBeaver::SwiftyBeaver</key>
 		<dict>
 			<key>primary</key>
 			<true/>

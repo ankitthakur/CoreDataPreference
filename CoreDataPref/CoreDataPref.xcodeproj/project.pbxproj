@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		CoreDataPref::CoreDataPrefPackageTests::ProductTarget /* CoreDataPrefPackageTests */ = {
+		"CoreDataPref::CoreDataPrefPackageTests::ProductTarget" /* CoreDataPrefPackageTests */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = OBJ_64 /* Build configuration list for PBXAggregateTarget "CoreDataPrefPackageTests" */;
 			buildPhases = (
@@ -25,7 +25,6 @@
 		97BA21DD21E8F9570051BC57 /* CDPref.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97BA21DB21E8F9570051BC57 /* CDPref.xcdatamodeld */; };
 		B413525605F556AE4A9761F6 /* Pods_CoreDataPrefTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26975AE4D7DA16EC8B69329 /* Pods_CoreDataPrefTests.framework */; };
 		F24AFE9F176E93A0E05E34F4 /* Pods_CoreDataPrefPackageDescription.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310797AC4CC61CC19886534 /* Pods_CoreDataPrefPackageDescription.framework */; };
-		OBJ_100 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Package.swift */; };
 		OBJ_46 /* ManagedObectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ManagedObectExtension.swift */; };
 		OBJ_47 /* CoreDataPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CoreDataPref.swift */; };
 		OBJ_48 /* CoreDataPrefCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CoreDataPrefCollection.swift */; };
@@ -33,45 +32,19 @@
 		OBJ_50 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Logger.swift */; };
 		OBJ_51 /* CDDefault+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CDDefault+CoreDataClass.swift */; };
 		OBJ_52 /* CDDefault+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CDDefault+CoreDataProperties.swift */; };
-		OBJ_54 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftyBeaver::SwiftyBeaver::Product /* SwiftyBeaver.framework */; };
 		OBJ_62 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_73 /* CoreDataPrefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* CoreDataPrefTests.swift */; };
 		OBJ_74 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* XCTestManifests.swift */; };
-		OBJ_76 /* CoreDataPref.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CoreDataPref::CoreDataPref::Product /* CoreDataPref.framework */; };
-		OBJ_77 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = SwiftyBeaver::SwiftyBeaver::Product /* SwiftyBeaver.framework */; };
-		OBJ_84 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AES256CBC.swift */; };
-		OBJ_85 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Base64.swift */; };
-		OBJ_86 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* BaseDestination.swift */; };
-		OBJ_87 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ConsoleDestination.swift */; };
-		OBJ_88 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Extensions.swift */; };
-		OBJ_89 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* FileDestination.swift */; };
-		OBJ_90 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Filter.swift */; };
-		OBJ_91 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* GoogleCloudDestination.swift */; };
-		OBJ_92 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* SBPlatformDestination.swift */; };
-		OBJ_93 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* SwiftyBeaver.swift */; };
+		OBJ_76 /* CoreDataPref.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		978A19A521E8DF5600A271A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftyBeaver::SwiftyBeaver";
-			remoteInfo = SwiftyBeaver;
-		};
 		978A19A621E8DF5600A271A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CoreDataPref::CoreDataPref";
 			remoteInfo = CoreDataPref;
-		};
-		978A19A721E8DF5600A271A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftyBeaver::SwiftyBeaver";
-			remoteInfo = SwiftyBeaver;
 		};
 		978A19A821E8DF5800A271A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -94,8 +67,8 @@
 		978A19DC21E8F51A00A271A8 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BA21DC21E8F9570051BC57 /* CDPref.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDPref.xcdatamodel; sourceTree = "<group>"; };
 		9E66F344CAAA65C6DD67E304 /* Pods-CoreDataPrefPackageDescription.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefPackageDescription.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefPackageDescription/Pods-CoreDataPrefPackageDescription.release.xcconfig"; sourceTree = "<group>"; };
-		CoreDataPref::CoreDataPref::Product /* CoreDataPref.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreDataPref.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CoreDataPref::CoreDataPrefTests::Product /* CoreDataPrefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CoreDataPrefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreDataPref.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CoreDataPref::CoreDataPrefTests::Product" /* CoreDataPrefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CoreDataPrefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26975AE4D7DA16EC8B69329 /* Pods_CoreDataPrefTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataPrefTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* ManagedObectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObectExtension.swift; sourceTree = "<group>"; };
 		OBJ_11 /* CoreDataPref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPref.swift; sourceTree = "<group>"; };
@@ -118,17 +91,9 @@
 		OBJ_35 /* SBPlatformDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBPlatformDestination.swift; sourceTree = "<group>"; };
 		OBJ_36 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyBeaver.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		SwiftyBeaver::SwiftyBeaver::Product /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4726D34564AB97AC33DDFD99 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FD9DCA341B3D51D9FDBA6F92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_54 /* SwiftyBeaver.framework in Frameworks */,
 				58E4AD8B20CF66F0A6EB4908 /* Pods_CoreDataPref.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,15 +115,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_76 /* CoreDataPref.framework in Frameworks */,
-				OBJ_77 /* SwiftyBeaver.framework in Frameworks */,
 				B413525605F556AE4A9761F6 /* Pods_CoreDataPrefTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +221,8 @@
 		OBJ_37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CoreDataPref::CoreDataPrefTests::Product /* CoreDataPrefTests.xctest */,
-				SwiftyBeaver::SwiftyBeaver::Product /* SwiftyBeaver.framework */,
-				CoreDataPref::CoreDataPref::Product /* CoreDataPref.framework */,
+				"CoreDataPref::CoreDataPrefTests::Product" /* CoreDataPrefTests.xctest */,
+				"CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -318,7 +273,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CoreDataPref::CoreDataPref /* CoreDataPref */ = {
+		"CoreDataPref::CoreDataPref" /* CoreDataPref */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_42 /* Build configuration list for PBXNativeTarget "CoreDataPref" */;
 			buildPhases = (
@@ -331,14 +286,13 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_55 /* PBXTargetDependency */,
 			);
 			name = CoreDataPref;
 			productName = CoreDataPref;
-			productReference = CoreDataPref::CoreDataPref::Product /* CoreDataPref.framework */;
+			productReference = "CoreDataPref::CoreDataPref::Product" /* CoreDataPref.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CoreDataPref::CoreDataPrefTests /* CoreDataPrefTests */ = {
+		"CoreDataPref::CoreDataPrefTests" /* CoreDataPrefTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "CoreDataPrefTests" */;
 			buildPhases = (
@@ -351,14 +305,13 @@
 			);
 			dependencies = (
 				OBJ_78 /* PBXTargetDependency */,
-				OBJ_79 /* PBXTargetDependency */,
 			);
 			name = CoreDataPrefTests;
 			productName = CoreDataPrefTests;
-			productReference = CoreDataPref::CoreDataPrefTests::Product /* CoreDataPrefTests.xctest */;
+			productReference = "CoreDataPref::CoreDataPrefTests::Product" /* CoreDataPrefTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CoreDataPref::SwiftPMPackageDescription /* CoreDataPrefPackageDescription */ = {
+		"CoreDataPref::SwiftPMPackageDescription" /* CoreDataPrefPackageDescription */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_58 /* Build configuration list for PBXNativeTarget "CoreDataPrefPackageDescription" */;
 			buildPhases = (
@@ -374,37 +327,6 @@
 			productName = CoreDataPrefPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		SwiftyBeaver::SwiftPMPackageDescription /* SwiftyBeaverPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_96 /* Build configuration list for PBXNativeTarget "SwiftyBeaverPackageDescription" */;
-			buildPhases = (
-				OBJ_99 /* Sources */,
-				4726D34564AB97AC33DDFD99 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyBeaverPackageDescription;
-			productName = SwiftyBeaverPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
-		SwiftyBeaver::SwiftyBeaver /* SwiftyBeaver */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_80 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
-			buildPhases = (
-				OBJ_83 /* Sources */,
-				OBJ_94 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyBeaver;
-			productName = SwiftyBeaver;
-			productReference = SwiftyBeaver::SwiftyBeaver::Product /* SwiftyBeaver.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -412,11 +334,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				TargetAttributes = {
-					"SwiftyBeaver::SwiftyBeaver" = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CoreDataPref" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -430,12 +347,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CoreDataPref::CoreDataPref /* CoreDataPref */,
-				CoreDataPref::SwiftPMPackageDescription /* CoreDataPrefPackageDescription */,
-				CoreDataPref::CoreDataPrefPackageTests::ProductTarget /* CoreDataPrefPackageTests */,
-				CoreDataPref::CoreDataPrefTests /* CoreDataPrefTests */,
-				SwiftyBeaver::SwiftyBeaver /* SwiftyBeaver */,
-				SwiftyBeaver::SwiftPMPackageDescription /* SwiftyBeaverPackageDescription */,
+				"CoreDataPref::CoreDataPref" /* CoreDataPref */,
+				"CoreDataPref::SwiftPMPackageDescription" /* CoreDataPrefPackageDescription */,
+				"CoreDataPref::CoreDataPrefPackageTests::ProductTarget" /* CoreDataPrefPackageTests */,
+				"CoreDataPref::CoreDataPrefTests" /* CoreDataPrefTests */,
 			);
 		};
 /* End PBXProject section */
@@ -575,53 +490,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_84 /* AES256CBC.swift in Sources */,
-				OBJ_85 /* Base64.swift in Sources */,
-				OBJ_86 /* BaseDestination.swift in Sources */,
-				OBJ_87 /* ConsoleDestination.swift in Sources */,
-				OBJ_88 /* Extensions.swift in Sources */,
-				OBJ_89 /* FileDestination.swift in Sources */,
-				OBJ_90 /* Filter.swift in Sources */,
-				OBJ_91 /* GoogleCloudDestination.swift in Sources */,
-				OBJ_92 /* SBPlatformDestination.swift in Sources */,
-				OBJ_93 /* SwiftyBeaver.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_100 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_55 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = SwiftyBeaver::SwiftyBeaver /* SwiftyBeaver */;
-			targetProxy = 978A19A521E8DF5600A271A8 /* PBXContainerItemProxy */;
-		};
 		OBJ_67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CoreDataPref::CoreDataPrefTests /* CoreDataPrefTests */;
+			target = "CoreDataPref::CoreDataPrefTests" /* CoreDataPrefTests */;
 			targetProxy = 978A19A821E8DF5800A271A8 /* PBXContainerItemProxy */;
 		};
 		OBJ_78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CoreDataPref::CoreDataPref /* CoreDataPref */;
+			target = "CoreDataPref::CoreDataPref" /* CoreDataPref */;
 			targetProxy = 978A19A621E8DF5600A271A8 /* PBXContainerItemProxy */;
-		};
-		OBJ_79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = SwiftyBeaver::SwiftyBeaver /* SwiftyBeaver */;
-			targetProxy = 978A19A721E8DF5600A271A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -867,74 +747,6 @@
 			};
 			name = Release;
 		};
-		OBJ_81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CoreDataPref.xcodeproj/SwiftyBeaver_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftyBeaver;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftyBeaver;
-			};
-			name = Debug;
-		};
-		OBJ_82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = CoreDataPref.xcodeproj/SwiftyBeaver_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftyBeaver;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftyBeaver;
-			};
-			name = Release;
-		};
-		OBJ_97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		OBJ_98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -979,24 +791,6 @@
 			buildConfigurations = (
 				OBJ_70 /* Debug */,
 				OBJ_71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_80 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_81 /* Debug */,
-				OBJ_82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_96 /* Build configuration list for PBXNativeTarget "SwiftyBeaverPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_97 /* Debug */,
-				OBJ_98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
