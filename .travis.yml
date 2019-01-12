@@ -4,7 +4,8 @@ language: swift
 xcode_project: ./CoreDataPref/CoreDataPref.xcodeproj # path to your xcodeproj folder
 
 script:
- xcodebuild -list -workspace ./CoreDataPref/CoreDataPref.xcworkspace
+
+- xcodebuild -list -workspace ./CoreDataPref/CoreDataPref.xcworkspace
 - xcodebuild clean build -workspace ./CoreDataPref/CoreDataPref.xcworkspace -scheme CoreDataPref -sdk iphonesimulator12.1
 - xcodebuild test -workspace ./CoreDataPref/CoreDataPref.xcworkspace -scheme CoreDataPref -sdk iphonesimulator12.1
 - xcodebuild clean build -workspace ./CoreDataPref/CoreDataPref.xcworkspace -scheme CoreDataPrefSample -sdk iphonesimulator12.1
