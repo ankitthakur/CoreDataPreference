@@ -7,7 +7,7 @@
 		<key>EncryptedCoreData.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
@@ -28,7 +28,7 @@
 		<key>SQLCipher.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
