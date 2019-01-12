@@ -22,9 +22,9 @@
 
 /* Begin PBXBuildFile section */
 		58E4AD8B20CF66F0A6EB4908 /* Pods_CoreDataPref.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0D514BF1E1F33163D170A3 /* Pods_CoreDataPref.framework */; };
+		975C797321EA537500605ECF /* EncryptedCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975C797221EA537500605ECF /* EncryptedCoreData.framework */; };
+		975C797521EA53B300605ECF /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975C797421EA53B300605ECF /* SQLCipher.framework */; };
 		97BA21DD21E8F9570051BC57 /* CDPref.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97BA21DB21E8F9570051BC57 /* CDPref.xcdatamodeld */; };
-		97FA8E6B21EA424700AFD71F /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FA8E6A21EA424700AFD71F /* SwiftyBeaver.framework */; };
-		97FA8E6F21EA430B00AFD71F /* EncryptedCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FA8E6E21EA430B00AFD71F /* EncryptedCoreData.framework */; };
 		B413525605F556AE4A9761F6 /* Pods_CoreDataPrefTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26975AE4D7DA16EC8B69329 /* Pods_CoreDataPrefTests.framework */; };
 		F24AFE9F176E93A0E05E34F4 /* Pods_CoreDataPrefPackageDescription.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310797AC4CC61CC19886534 /* Pods_CoreDataPrefPackageDescription.framework */; };
 		OBJ_46 /* ManagedObectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ManagedObectExtension.swift */; };
@@ -66,6 +66,9 @@
 		538A9B6AEE2EF98223353C13 /* Pods-CoreDataPref.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPref.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPref/Pods-CoreDataPref.debug.xcconfig"; sourceTree = "<group>"; };
 		5CFFA26B54FAE2D1E4B39615 /* Pods-CoreDataPrefTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefTests/Pods-CoreDataPrefTests.release.xcconfig"; sourceTree = "<group>"; };
 		971E7AD521E9EB200062040A /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975C796E21EA4EED00605ECF /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975C797221EA537500605ECF /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975C797421EA53B300605ECF /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		978A19DC21E8F51A00A271A8 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BA21DC21E8F9570051BC57 /* CDPref.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDPref.xcdatamodel; sourceTree = "<group>"; };
 		97FA8E6021EA416500AFD71F /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,8 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				97FA8E6F21EA430B00AFD71F /* EncryptedCoreData.framework in Frameworks */,
-				97FA8E6B21EA424700AFD71F /* SwiftyBeaver.framework in Frameworks */,
+				975C797521EA53B300605ECF /* SQLCipher.framework in Frameworks */,
+				975C797321EA537500605ECF /* EncryptedCoreData.framework in Frameworks */,
 				58E4AD8B20CF66F0A6EB4908 /* Pods_CoreDataPref.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +139,9 @@
 		2A5D2267F068334C64600821 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				975C797421EA53B300605ECF /* SQLCipher.framework */,
+				975C797221EA537500605ECF /* EncryptedCoreData.framework */,
+				975C796E21EA4EED00605ECF /* EncryptedCoreData.framework */,
 				97FA8E6E21EA430B00AFD71F /* EncryptedCoreData.framework */,
 				97FA8E6621EA424700AFD71F /* EncryptedCoreData.framework */,
 				97FA8E6821EA424700AFD71F /* SQLCipher.framework */,
@@ -317,7 +323,7 @@
 				BDDF098A53165642AFCAA061 /* [CP] Check Pods Manifest.lock */,
 				OBJ_72 /* Sources */,
 				OBJ_75 /* Frameworks */,
-				F8AF4A04C81AC206D34E4D90 /* [CP] Embed Pods Frameworks */,
+				D40058B5244C49659C4BAD16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -433,25 +439,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9A0888998AC5FAD97603001 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CoreDataPref-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8AF4A04C81AC206D34E4D90 /* [CP] Embed Pods Frameworks */ = {
+		D40058B5244C49659C4BAD16 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,6 +459,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreDataPrefTests/Pods-CoreDataPrefTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A0888998AC5FAD97603001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDataPref-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

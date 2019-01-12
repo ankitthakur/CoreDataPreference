@@ -4,76 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EncryptedCoreData.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-			<key>orderHint</key>
-			<integer>11</integer>
-		</dict>
-		<key>Pods-CoreDataPref.xcscheme_^#shared#^_</key>
+		<key>EncryptedCoreData.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>14</integer>
 		</dict>
-		<key>Pods-CoreDataPrefPackageDescription.xcscheme_^#shared#^_</key>
+		<key>Pods-CoreDataPref.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>16</integer>
 		</dict>
-		<key>Pods-CoreDataPrefTests.xcscheme_^#shared#^_</key>
+		<key>Pods-CoreDataPrefPackageDescription.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>18</integer>
 		</dict>
-		<key>SQLCipher.xcscheme_^#shared#^_</key>
+		<key>Pods-CoreDataPrefTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
-			<key>orderHint</key>
-			<integer>20</integer>
+			<false/>
 		</dict>
-		<key>SwiftyBeaver.xcscheme_^#shared#^_</key>
+		<key>SQLCipher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
-			<key>orderHint</key>
-			<integer>21</integer>
+			<false/>
+		</dict>
+		<key>SwiftyBeaver.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>46C72A6F5C99FAFD0B81F8749E78BE9B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>606C5160D411C0976513AF4791AFE11F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6EAD8A0EF6C1CBC25241B362C558FF35</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C2CBA986E3A9EF58551018CC852D29E6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E945685389B954A44AA4A29014237DA7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

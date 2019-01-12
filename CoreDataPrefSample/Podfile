@@ -9,7 +9,8 @@ target 'CoreDataPrefSample' do
   use_frameworks!
 
   # Pods for CoreDataPrefSample
-  pod 'EncryptedCoreData'
+  pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data', :commit => 'b97ffaf2f19dad4d1558bc9b0668cc2e09d17347'
+  pod 'CoreDataPref', :path => '../CoreDataPref'
   target 'CoreDataPrefSampleTests' do
     inherit! :search_paths
     # Pods for testing
