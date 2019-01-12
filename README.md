@@ -9,20 +9,42 @@ Code Sample
         try CoreDataPref.set(value: 2, forKey: "IntValue")
         try CoreDataPref.set(value: ["key1": "value1", "key2": "value2"], forKey: "dictionary")
         try CoreDataPref.set(value: ["value1", "value2"], forKey: "array")
-        try CoreDataPref.set(value: struct2(), forKey: "struct")
         try CoreDataPref.set(value: true, forKey: "bool")
             
         let floatValue = try CoreDataPref.float(forKey: "floatValue")
         let intValue = try CoreDataPref.integer(forKey: "IntValue")
         let dictionary = try CoreDataPref.dictionary(forKey: "dictionary")
         let array = try CoreDataPref.array(forKey: "array")
-        let url = try CoreDataPref.codable(objectType: Struct2.self, forKey: "struct")
         let boolValue = try CoreDataPref.boolean(forKey: "bool")
 
     } catch let error {
         print(error)
     }
     
+If we want to save any class or struct, just make them Codable, and store it like below
+    
+    struct Struct1: Codable {
+        let value1 = "value1"
+        let value2 = "value2"
+        let value3 = "value3"
+    }
+    struct Struct2: Codable {
+        let value1 = "value1"
+        let value2 = "value2"
+        let struct1Val = Struct1()
+    }
+
+        do {
+            // save struct in preferences
+            try CoreDataPref.set(value: Struct2(), forKey: "struct")
+            
+            // fetch struct from preferences
+            let struct = try CoreDataPref.codable(objectType: Struct2.self, forKey: "struct")
+            
+        } catch let error {
+            print(error)
+        }
+
 
 Here is the Swift Lint Report:
 
