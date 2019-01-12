@@ -1,6 +1,7 @@
 # CoreDataPreference
 Using core data as UserDefault settings with encryption (EncryptedCoreData)
 
+
 We have created a framework named `CoreDataPref` 
 
 * Integration
@@ -9,6 +10,7 @@ We have created a framework named `CoreDataPref`
 'EncryptedCoreData'
 
 Just drag and drop the framework.
+
 
 Code Sample
 
@@ -74,3 +76,4 @@ Here is the Swift Lint Report:
     Linting 'CDDefault+CoreDataClass.swift' (13/14)
     Linting 'CDDefault+CoreDataProperties.swift' (14/14)
     Done linting! Found 0 violations, 0 serious in 14 files.
+
