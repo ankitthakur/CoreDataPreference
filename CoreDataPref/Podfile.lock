@@ -6,19 +6,23 @@ PODS:
   - SQLCipher/common (3.4.2)
   - SQLCipher/standard (3.4.2):
     - SQLCipher/common
+  - SwiftyBeaver (1.6.1)
 
 DEPENDENCIES:
   - EncryptedCoreData
+  - SwiftyBeaver
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - EncryptedCoreData
     - SQLCipher
+    - SwiftyBeaver
 
 SPEC CHECKSUMS:
   EncryptedCoreData: f6762fb05f88a52f36c5648659abc91b57f244b4
   SQLCipher: f9fcf29b2e59ced7defc2a2bdd0ebe79b40d4990
+  SwiftyBeaver: ccfcdf85a04d429f1633f668650b0ce8020bda3a
 
-PODFILE CHECKSUM: a4163ea9ea6b00a7f4a655641aaa1d85f23e2c83
+PODFILE CHECKSUM: fa348c5626eba11f460c5236ae608ee2d2a45ea9
 
 COCOAPODS: 1.5.3

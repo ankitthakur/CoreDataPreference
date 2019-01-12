@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CoreDataPrefSample/CoreDataPrefSample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CoreDataPrefSample/Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:CoreDataPref.xcodeproj">
    </FileRef>
    <FileRef

@@ -14,19 +14,19 @@
 		55193BC846EA584C2F672D197B01750A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1E745FC08D8009B984D4A83DF5DBCA /* Security.framework */; };
 		63B4F4349163B97B17EFB3E2AA7F65ED /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15859855C167131C1AFD5E451927E048 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66CA96CFBF8E11868E26698835B3B9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C0AA6D9C0905940AE61548E2B9D21C /* Foundation.framework */; };
-		74380613BB2F8B138953934E94755FFC /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 514813C25F10FFED4874B058AA86B6C0 /* EncryptedStore.m */; };
 		7DC66E5E55ED7F6E14F11097F9084867 /* Pods-CoreDataPrefSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678431FE845B17FE55A201F51EA8CB70 /* Pods-CoreDataPrefSample-dummy.m */; };
 		7E8B7A33B4C35CC7DD5B3F7343334833 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1E745FC08D8009B984D4A83DF5DBCA /* Security.framework */; };
+		8197B0F26508F2B9E649AFA6E2DDE75F /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 514813C25F10FFED4874B058AA86B6C0 /* EncryptedStore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8577A1B8082FE9DA9AFC1B14E375F3FC /* Pods-CoreDataPrefSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 872A287A40F35993C12AFECE776B8923 /* Pods-CoreDataPrefSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92F3CFD187E7F02CC1D33AB583636F16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C0AA6D9C0905940AE61548E2B9D21C /* Foundation.framework */; };
 		94F42EA1F8C2AE1ECDCB8BABF3BC3FB8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2B8666681F9D9B95BC5E6FC688F9E2 /* CoreData.framework */; };
 		95138DE7A0E4C32CF40D6579DBDFB6C7 /* EncryptedCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6A7536ACA289876A76CC2D1F864C14 /* EncryptedCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A12EEA132FB8875E6999D36E9CE7F3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C0AA6D9C0905940AE61548E2B9D21C /* Foundation.framework */; };
+		B4310C7E2D5CC86902000DDF6E64137D /* EncryptedCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D0A0BE8A0374CA4A9E3A01F298B675 /* EncryptedCoreData-dummy.m */; };
+		BFF33BFC3062FB2BA2EFC7C6E6871905 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 97D0028A5E12231148C82E19F2962A2E /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CBE705139A4397DDDE4B9760151E4481 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B15604AFE1EF611CC71EBB91ED83E2 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D06594CF1DDDB9542671F4503CC3C84F /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 97D0028A5E12231148C82E19F2962A2E /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
 		E8E6606A682FA814444F34F1FBDC1932 /* Pods-CoreDataPrefSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEAE88B476DE9B32B9CE8EC860E2BC7 /* Pods-CoreDataPrefSampleTests-dummy.m */; };
 		FC15DB95F07C5E93233FF6201F45954E /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A960D09E6C917A6AF10DBD4ED16E2D /* SQLCipher.framework */; };
-		FE2A480751F8FBC09C0DA7C4F75A4E69 /* EncryptedCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D0A0BE8A0374CA4A9E3A01F298B675 /* EncryptedCoreData-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -345,7 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72FED428915F55EF07B75D701B803E1C /* Build configuration list for PBXNativeTarget "EncryptedCoreData" */;
 			buildPhases = (
-				8CB04E6C9A2F499F383CA78F9ECA74BE /* Sources */,
+				B6D146DBA12DC99304252579F09359A4 /* Sources */,
 				F14ECA13D0FFBCCC5791A375D02E0206 /* Frameworks */,
 				19E22503F34FB735FA447BE3FA7CF322 /* Headers */,
 			);
@@ -443,21 +443,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8CB04E6C9A2F499F383CA78F9ECA74BE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE2A480751F8FBC09C0DA7C4F75A4E69 /* EncryptedCoreData-dummy.m in Sources */,
-				74380613BB2F8B138953934E94755FFC /* EncryptedStore.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AA44D99FEFA75152258FB40CBF9D2C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				244AC931F77968E141A4547805E5D28A /* SQLCipher-dummy.m in Sources */,
-				D06594CF1DDDB9542671F4503CC3C84F /* sqlite3.c in Sources */,
+				BFF33BFC3062FB2BA2EFC7C6E6871905 /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D146DBA12DC99304252579F09359A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4310C7E2D5CC86902000DDF6E64137D /* EncryptedCoreData-dummy.m in Sources */,
+				8197B0F26508F2B9E649AFA6E2DDE75F /* EncryptedStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

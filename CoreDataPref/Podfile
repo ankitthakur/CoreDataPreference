@@ -10,6 +10,7 @@ target 'CoreDataPref' do
 
     # Pods for CoreDataPref
     pod 'EncryptedCoreData'
+    pod 'SwiftyBeaver'
 
     target 'CoreDataPrefTests' do
         inherit! :search_paths
