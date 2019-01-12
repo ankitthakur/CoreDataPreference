@@ -9,4 +9,4 @@ We have created a framework named `CoreDataPref`
 **Dependencies:**
 'EncryptedCoreData'
 
-Its a framework, so just drag and drop the framework.
+Just drag and drop the framework.
