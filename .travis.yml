@@ -1,10 +1,10 @@
 osx_image: xcode10.1
 language: swift
 
-before_install:
-- brew update
-- if brew outdated | grep -qx carthage; then brew upgrade carthage; fi
-- travis_wait 35 carthage bootstrap --platform iOS,Mac
+xcode_project: ./CoreDataPref/CoreDataPref.xcodeproj # path to your xcodeproj folder
+xcode_scheme: CoreDataPrefTests
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone XS
+
 
 script:
 - xcodebuild clean build -project CoreDataPref.xcodeproj -scheme CoreDataPref -sdk iphonesimulator
