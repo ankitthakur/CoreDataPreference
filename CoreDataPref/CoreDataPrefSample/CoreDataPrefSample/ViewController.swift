@@ -9,18 +9,20 @@
 import UIKit
 import CoreDataPref
 
+struct Struct1: Codable {
+    let value1 = "value1"
+    let value2 = "value2"
+    let value3 = "value3"
+    
+}
+struct Struct2: Codable {
+    let value1 = "value1"
+    let value2 = "value2"
+    let struct1Val = Struct1()
+}
+
 class ViewController: UIViewController {
 
-    struct Struct1: Codable {
-        let value1 = "value1"
-        let value2 = "value2"
-        let value3 = "value3"
-    }
-    struct Struct1: Codable {
-        let value1 = "value1"
-        let value2 = "value2"
-        let struct1Val = Struct1()
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,7 +32,7 @@ class ViewController: UIViewController {
             try CoreDataPref.set(value: ["key1": "value1", "key2": "value2"], forKey: "dictionary")
             try CoreDataPref.set(value: ["value1", "value2"], forKey: "array")
             try CoreDataPref.set(value: URL(fileURLWithPath: Bundle.main.bundlePath), forKey: "url")
-            try CoreDataPref.set(value: struct2(), forKey: "struct")
+            try CoreDataPref.set(value: Struct2(), forKey: "struct")
             try CoreDataPref.set(value: true, forKey: "bool")
 
             let floatValue = try CoreDataPref.float(forKey: "floatValue")
