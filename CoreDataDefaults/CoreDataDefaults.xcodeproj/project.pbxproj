@@ -19,6 +19,7 @@
 		9750FE9B21EA8DE7005D3A66 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9750FE9421EA8DE7005D3A66 /* CoreDataManager.swift */; };
 		97A10F2A21EB2ABD00FD175C /* CoreDataDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A10F2921EB2ABD00FD175C /* CoreDataDefaults.swift */; };
 		97A10F2E21EB370800FD175C /* CoreDataDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A10F2D21EB370800FD175C /* CoreDataDefaults.h */; };
+		97A10F3021EB39C300FD175C /* CoreDataDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A10F2F21EB39C300FD175C /* CoreDataDefaults.h */; };
 		97DDF02521EA905E00E4F9B6 /* EncryptedCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DDF02421EA905E00E4F9B6 /* EncryptedCoreData.framework */; };
 		97DDF02721EA905E00E4F9B6 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DDF02621EA905E00E4F9B6 /* SwiftyBeaver.framework */; };
 		97DDF02A21EA91FA00E4F9B6 /* CoreDataPrefCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DDF02821EA91FA00E4F9B6 /* CoreDataPrefCollection.swift */; };
@@ -54,6 +55,7 @@
 		9750FE9421EA8DE7005D3A66 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		97A10F2921EB2ABD00FD175C /* CoreDataDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDefaults.swift; sourceTree = "<group>"; };
 		97A10F2D21EB370800FD175C /* CoreDataDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDefaults.h; sourceTree = SOURCE_ROOT; };
+		97A10F2F21EB39C300FD175C /* CoreDataDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDefaults.h; sourceTree = "<group>"; };
 		97DDF02421EA905E00E4F9B6 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DDF02621EA905E00E4F9B6 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DDF02821EA91FA00E4F9B6 /* CoreDataPrefCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPrefCollection.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				9750FE8821EA8DE7005D3A66 /* Model */,
 				9750FE8D21EA8DE7005D3A66 /* Obfuscator */,
 				97A10F2D21EB370800FD175C /* CoreDataDefaults.h */,
+				97A10F2F21EB39C300FD175C /* CoreDataDefaults.h */,
 				9750FE7221EA8D32005D3A66 /* Info.plist */,
 			);
 			path = CoreDataDefaults;
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97A10F2E21EB370800FD175C /* CoreDataDefaults.h in Headers */,
+				97A10F3021EB39C300FD175C /* CoreDataDefaults.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
