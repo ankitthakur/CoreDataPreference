@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9750FE6D21EA8D32005D3A66"
+               BlueprintIdentifier = "9753453521EB6F7D00B11BE6"
                BuildableName = "CoreDataDefaults.framework"
                BlueprintName = "CoreDataDefaults"
                ReferencedContainer = "container:CoreDataDefaults.xcodeproj">
@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9750FE7621EA8D33005D3A66"
+               BlueprintIdentifier = "9753453E21EB6F7D00B11BE6"
                BuildableName = "CoreDataDefaultsTests.xctest"
                BlueprintName = "CoreDataDefaultsTests"
                ReferencedContainer = "container:CoreDataDefaults.xcodeproj">
@@ -42,7 +43,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9750FE6D21EA8D32005D3A66"
+            BlueprintIdentifier = "9753453521EB6F7D00B11BE6"
             BuildableName = "CoreDataDefaults.framework"
             BlueprintName = "CoreDataDefaults"
             ReferencedContainer = "container:CoreDataDefaults.xcodeproj">
@@ -64,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9750FE6D21EA8D32005D3A66"
+            BlueprintIdentifier = "9753453521EB6F7D00B11BE6"
             BuildableName = "CoreDataDefaults.framework"
             BlueprintName = "CoreDataDefaults"
             ReferencedContainer = "container:CoreDataDefaults.xcodeproj">
@@ -82,7 +83,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9750FE6D21EA8D32005D3A66"
+            BlueprintIdentifier = "9753453521EB6F7D00B11BE6"
             BuildableName = "CoreDataDefaults.framework"
             BlueprintName = "CoreDataDefaults"
             ReferencedContainer = "container:CoreDataDefaults.xcodeproj">
