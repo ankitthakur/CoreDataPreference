@@ -18,7 +18,6 @@ internal extension NSManagedObject {
 
     @nonobjc internal class func fetchrequest<T: NSManagedObject>(entityClass: T.Type) ->
         NSFetchRequest<NSFetchRequestResult> {
-
             let entityName = NSStringFromClass(entityClass)
             return NSFetchRequest(entityName: entityName)
     }
@@ -49,11 +48,8 @@ internal extension NSManagedObject {
             try managedObjectContext.save()
             // since the data is stored, so reset and clear the context.
             managedObjectContext.reset()
-
             CDLogger.info(apiName: "DB Save value for key", object: "\(key)" as AnyObject)
-
-        } catch let error {
-            print(error)
+        } catch {
             throw DBModelError.jsonParseError("failed to save \(key) in db")
         }
     }
