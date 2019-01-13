@@ -14,19 +14,19 @@ Pod::Spec.new do |spec|
   spec.homepage      = 'https://github.com/ankitthakur/CoreDataPreference'
   spec.authors       = { "Ankit Thakur" => "ankitthakur85@gmail.com" }
   spec.summary       = 'Using Core Data similar to UserDefault'
-  spec.source        = { :git => 'https://github.com/ankitthakur/CoreDataPreference.git', :tag => 'v0.0.3' }
+  spec.source        = { :git => 'https://github.com/ankitthakur/CoreDataPreference.git', :tag => '0.0.3' }
   spec.module_name   = 'CoreDataDefaults'
   spec.swift_version = '4.2'
 
-  spec.ios.deployment_target  = '9.0'
-  spec.osx.deployment_target  = '10.10'
+  spec.ios.deployment_target  = '8.4'
+  # spec.osx.deployment_target  = '10.10'
 
-  spec.source_files       = 'CoreDataDefaults/*.swift'
-  spec.ios.source_files   = 'CoreDataDefaults/*.swift'
+  # spec.source_files       = 'CoreDataDefaults/**/*.swift'
+  spec.ios.source_files   = 'CoreDataDefaults/**/*.swift'
 
-  spec.framework      = 'SystemConfiguration'
+  # spec.framework      = 'SystemConfiguration'
   spec.ios.framework  = 'UIKit'
-  spec.osx.framework  = 'AppKit'
+  # spec.osx.framework  = 'AppKit'
 
   # spec.dependency 'SomeOtherPod'
 end
