@@ -1,0 +1,11 @@
+framework module CoreDataDefaults {
+  umbrella header "CoreDataDefaults.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreDataDefaults.Swift {
+    header "CoreDataDefaults-Swift.h"
+    requires objc
+}

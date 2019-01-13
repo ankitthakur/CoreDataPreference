@@ -1,0 +1,38 @@
+Test Suite 'All tests' started at 2019-01-13 22:55:43.796
+Test Suite 'CoreDataDefaultsTests.xctest' started at 2019-01-13 22:55:43.797
+Test Suite 'CoreDataDefaultsTests' started at 2019-01-13 22:55:43.798
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testArray]' started.
+22:55:43.847 💙 INFO Logger.info():27 - DB Save value for key:arrayValue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testArray]' passed (0.054 seconds).
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testBool]' started.
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testBool]' passed (0.003 seconds).
+22:55Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDictionary]' started.
+:43.856 💙 INFO Logger.info():27 - DB Save value for key:boolValue
+22:55:43.859 💙 INFO Logger.info():27 - DB Save value for key:dictValue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDictionary]' passed (0.003 seconds).
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDouble]' started.
+22:55:43.862 💙 INFO Logger.info():27 - DB Save value for key:doublevalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDouble]' passed (0.002 seconds).
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testFloat]' started.
+2Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testFloat]' passed (0.001 seconds).
+2:55:43.865 💙 INFO Logger.info():27 - DB Save value for key:floatvalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testInt]' started.
+22:55:43.867 💙 INFO Logger.info():27 - DB Save value for key:intvalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testInt]' passed (0.002 seconds).
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testString]' started.
+22:55:43.869 💙 INFO Logger.info():27 - DB Save value for key:stringvalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testString]' passed (0.002 seconds).
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testStruct]' started.
+22:55:43.873 💙 INFO Logger.info():27 - DB Save value for key:struct
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testStruct]' passed (0.003 seconds).
+Test Suite 'CoreDataDefaultsTests' passed at 2019-01-13 22:55:43.874.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.070 (0.077) seconds
+Test Suite 'CoreDataDefaultsTests.xctest' passed at 2019-01-13 22:55:43.875.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.070 (0.078) seconds
+Test Suite 'All tests' passed at 2019-01-13 22:55:43.877.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.070 (0.080) seconds
+
+
+Test session log:
+	/Users/ankitthakur/Documents/Projects/CoreDataPreference/CoreDataDefaults/TestResults/1_Test/Diagnostics/CoreDataDefaultsTests-97A2FF0B-1D3F-4503-A907-588266089E51/CoreDataDefaultsTests-411D5590-DD9D-4C7F-BC11-ADACE0FD6F11/Session-CoreDataDefaultsTests-2019-01-13_225543-OpNnUP.log
+
