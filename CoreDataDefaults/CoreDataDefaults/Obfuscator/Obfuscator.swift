@@ -21,7 +21,6 @@ struct Obfuscator {
         self.salt = salt
     }
     
-    
     // MARK: - Instance Methods
     
     /**

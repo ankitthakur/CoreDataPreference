@@ -74,5 +74,4 @@ class CoreDataDefaultsTests: XCTestCase {
         }
     }
 
-
 }
