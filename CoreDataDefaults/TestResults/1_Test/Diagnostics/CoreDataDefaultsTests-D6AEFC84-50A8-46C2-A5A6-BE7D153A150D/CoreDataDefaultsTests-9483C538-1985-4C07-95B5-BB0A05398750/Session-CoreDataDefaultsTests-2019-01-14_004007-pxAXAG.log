@@ -1,0 +1,312 @@
+00:40:07.815 xcodebuild[42740:520651] Beginning test session CoreDataDefaultsTests-796E52C4-800D-44E0-95DE-D2F2E1208A9F at 2019-01-14 00:40:07.814 with Xcode 10B61 on target <DVTiPhoneSimulator: 0x7fbfbdc3fb20> {
+		SimDevice: iPhone XR (E8CD93F3-ED1B-4D01-B683-7FD045A9B507, iOS 12.1, Booted)
+} (12.1 (16B91))
+00:40:07.815 xcodebuild[42740:520651] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+test
+-workspace
+CoreDataDefaults.xcworkspace
+-scheme
+CoreDataDefaults
+-sdk
+iphonesimulator12.1
+-destination
+platform=iOS Simulator,name=iPhone XR
+-resultBundlePath
+TestResults
+00:40:07.815 xcodebuild[42740:520651] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+00:40:07.818 xcodebuild[42740:520651] Test standard output and standard error is at /Users/ankitthakur/Documents/Projects/CoreDataPreference/CoreDataDefaults/TestResults/1_Test/Diagnostics/CoreDataDefaultsTests-D6AEFC84-50A8-46C2-A5A6-BE7D153A150D/CoreDataDefaultsTests-9483C538-1985-4C07-95B5-BB0A05398750/StandardOutputAndStandardError.txt
+00:40:07.829 xcodebuild[42740:520651] Setting up test runner session
+00:40:07.829 xcodebuild[42740:521213] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+00:40:07.832 xcodebuild[42740:521213] Sim iPhone XR has testmanagerd socket at /private/tmp/com.apple.launchd.ZebI1YFlRE/com.apple.testmanagerd.unix-domain.socket
+00:40:07.832 xcodebuild[42740:521213] Validating test connection socket path (/private/tmp/com.apple.launchd.ZebI1YFlRE/com.apple.testmanagerd.unix-domain.socket)
+00:40:07.832 xcodebuild[42740:521213] Constructing transport for test connection socket
+00:40:07.833 xcodebuild[42740:521213] Connected socket 33 to testmanagerd for Sim iPhone XR
+00:40:07.834 xcodebuild[42740:521220] Received connection for test runner session
+00:40:07.834 xcodebuild[42740:521220] Listening for proxy connection request from the test bundle
+00:40:07.837 xcodebuild[42740:520651] Launch session started.
+00:40:07.836 xcodebuild[42740:521220] Initiating session with identifier: 796E52C4-800D-44E0-95DE-D2F2E1208A9F
+00:40:07.842 xcodebuild[42740:520651] Test runner session acquired connection.
+00:40:07.843 xcodebuild[42740:520651] Waiting for test process to launch.
+00:40:07.851 xcodebuild[42740:520663] 📱<DVTiPhoneSimulator (0x7fbfbdc3fb20), iPhone XR, unknown class, 12.1 (16B91), E8CD93F3-ED1B-4D01-B683-7FD045A9B507> simulator was claimed by LaunchSessionClaim_0x7fbfbddaabb0
+00:40:07.855 xcodebuild[42740:521215] 📱<DVTiPhoneSimulator (0x7fbfbdc3fb20), iPhone XR, unknown class, 12.1 (16B91), E8CD93F3-ED1B-4D01-B683-7FD045A9B507> simulator was claimed by LaunchSessionClaim_0x7fbfbddaabb0
+00:40:07.856 xcodebuild[42740:521215] E8CD93F3-ED1B-4D01-B683-7FD045A9B507: Registered for sim device notification, got token 8
+00:40:07.857 xcodebuild[42740:520663] E8CD93F3-ED1B-4D01-B683-7FD045A9B507: Unregistering for sim device notification with token 8
+00:40:07.858 xcodebuild[42740:520663] E8CD93F3-ED1B-4D01-B683-7FD045A9B507: Spawning executable at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest and options: {
+    arguments =     (
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest",
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    binpref = "x86_64";
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FRAMEWORK_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator::/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        IDEiPhoneInternalTestBundleName = "CoreDataDefaultsTests.xctest";
+        "LLVM_PROFILE_FILE" = "/var/folders/k0/dd091g8x0yv330vn1bhlzfch0000gn/T/090C4F12-C6EC-48E6-A177-D9CC327FB116-42740-00004E5492B829A6/43EF4D5C-4C83-4F88-841B-1D932A894903-%p.profraw%15x";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCTestConfigurationFilePath = "/Users/ankitthakur/Documents/Projects/CoreDataPreference/CoreDataDefaults/TestResults/1_Test/Diagnostics/CoreDataDefaultsTests-D6AEFC84-50A8-46C2-A5A6-BE7D153A150D/CoreDataDefaultsTests-9483C538-1985-4C07-95B5-BB0A05398750/LaunchSessions/796E52C4-800D-44E0-95DE-D2F2E1208A9F/remote-container/tmp/CoreDataDefaultsTests-796E52C4-800D-44E0-95DE-D2F2E1208A9F.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/k0/dd091g8x0yv330vn1bhlzfch0000gn/T/090C4F12-C6EC-48E6-A177-D9CC327FB116-42740-00004E5492B829A6/43EF4D5C-4C83-4F88-841B-1D932A894903-%p.profraw%15x";
+    };
+    stderr = 40;
+    stdin = 38;
+    stdout = 39;
+    "wait_for_debugger" = 0;
+}
+00:40:07.904 xcodebuild[42740:521215] E8CD93F3-ED1B-4D01-B683-7FD045A9B507: Spawned executable at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest with options: {
+    arguments =     (
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest",
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    binpref = "x86_64";
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FRAMEWORK_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator::/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        IDEiPhoneInternalTestBundleName = "CoreDataDefaultsTests.xctest";
+        "LLVM_PROFILE_FILE" = "/var/folders/k0/dd091g8x0yv330vn1bhlzfch0000gn/T/090C4F12-C6EC-48E6-A177-D9CC327FB116-42740-00004E5492B829A6/43EF4D5C-4C83-4F88-841B-1D932A894903-%p.profraw%15x";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCTestConfigurationFilePath = "/Users/ankitthakur/Documents/Projects/CoreDataPreference/CoreDataDefaults/TestResults/1_Test/Diagnostics/CoreDataDefaultsTests-D6AEFC84-50A8-46C2-A5A6-BE7D153A150D/CoreDataDefaultsTests-9483C538-1985-4C07-95B5-BB0A05398750/LaunchSessions/796E52C4-800D-44E0-95DE-D2F2E1208A9F/remote-container/tmp/CoreDataDefaultsTests-796E52C4-800D-44E0-95DE-D2F2E1208A9F.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/k0/dd091g8x0yv330vn1bhlzfch0000gn/T/090C4F12-C6EC-48E6-A177-D9CC327FB116-42740-00004E5492B829A6/43EF4D5C-4C83-4F88-841B-1D932A894903-%p.profraw%15x";
+    };
+    stderr = 40;
+    stdin = 38;
+    stdout = 39;
+    "wait_for_debugger" = 0;
+} (pid = 42947)
+00:40:07.904 xcodebuild[42740:521215] 📱<DVTiPhoneSimulator (0x7fbfbdc3fb20), iPhone XR, unknown class, 12.1 (16B91), E8CD93F3-ED1B-4D01-B683-7FD045A9B507> tracking pid 42947
+00:40:07.904 xcodebuild[42740:521215] 📱<DVTiPhoneSimulator (0x7fbfbdc3fb20), iPhone XR, unknown class, 12.1 (16B91), E8CD93F3-ED1B-4D01-B683-7FD045A9B507> checking to see if pid 42947 is valid: kill(pid, 0) = 0 (YES, it's still running)
+00:40:07.906 xcodebuild[42740:520651] Test process runnable PID is 42947.
+00:40:08.834 xcodebuild[42740:521215] Got reply to session initiation request with identifier 796E52C4-800D-44E0-95DE-D2F2E1208A9F (result:error): 29: (null)
+00:40:08.862 xcodebuild[42740:521215] Handling proxy channel request from test runner
+00:40:08.862 xcodebuild[42740:521215] Test runner is ready, running protocol 29, requires at least version 7. Control framework is running 29 and requires at least 7
+00:40:08.862 xcodebuild[42740:520651] Test runner session successfully initiated.
+00:40:08.862 xcodebuild[42740:520651] Whitelisting test process ID 42947
+00:40:08.863 xcodebuild[42740:520651] Got whitelisting response from test daemon: Success
+00:40:08.863 xcodebuild[42740:520651] Registering/updating daemon-based crash report observer for process names (
+    backboardd,
+    SpringBoard,
+    xctest
+)
+00:40:08.866 xcodebuild[42740:520651] Telling test runner to start executing tests.
+00:40:08.796 xctest[42947:521229] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 1010(10B43a), modified on Saturday, October 20, 2018 at 7:03:20 AM India Standard Time
+XCTest.framework bundle version: 14460.20
+00:40:08.798 xctest[42947:521229] System uptime: 2:55:56
+00:40:08.798 xctest[42947:521229] Process arguments: (
+    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+00:40:08.798 xctest[42947:521229] Process environment: {
+    "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+    "CA_DEBUG_TRANSACTIONS" = 0;
+    "CFFIXED_USER_HOME" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data";
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.iYBFUbJ5Bz/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator::/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:";
+    "DYLD_LIBRARY_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data";
+    IDEiPhoneInternalTestBundleName = "CoreDataDefaultsTests.xctest";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/tmp/com.apple.CoreSimulator.SimDevice.E8CD93F3-ED1B-4D01-B683-7FD045A9B507/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data/Library/Application Support/Simulator/extended_display.plist";
+    "LLVM_PROFILE_FILE" = "/var/folders/k0/dd091g8x0yv330vn1bhlzfch0000gn/T/090C4F12-C6EC-48E6-A177-D9CC327FB116-42740-00004E5492B829A6/43EF4D5C-4C83-4F88-841B-1D932A894903-%p.profraw%15x";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.gDsJkrGp3q/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1547396052;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone X\U0280.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone XR";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/ankitthakur";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/ankitthakur/Library/Logs/CoreSimulator/E8CD93F3-ED1B-4D01-B683-7FD045A9B507";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1792;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 828;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone11,8";
+    "SIMULATOR_PRODUCT_CLASS" = N841;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 16B91;
+    "SIMULATOR_RUNTIME_VERSION" = "12.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data";
+    "SIMULATOR_UDID" = "E8CD93F3-ED1B-4D01-B683-7FD045A9B507";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 581.2 - Device: iPhone XR - Runtime: iOS 12.1 (16B91) - DeviceType: iPhone X\U0280";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.ZebI1YFlRE/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/ankitthakur/Library/Developer/CoreSimulator/Devices/E8CD93F3-ED1B-4D01-B683-7FD045A9B507/data/tmp/";
+    XCTestConfigurationFilePath = "/Users/ankitthakur/Documents/Projects/CoreDataPreference/CoreDataDefaults/TestResults/1_Test/Diagnostics/CoreDataDefaultsTests-D6AEFC84-50A8-46C2-A5A6-BE7D153A150D/CoreDataDefaultsTests-9483C538-1985-4C07-95B5-BB0A05398750/LaunchSessions/796E52C4-800D-44E0-95DE-D2F2E1208A9F/remote-container/tmp/CoreDataDefaultsTests-796E52C4-800D-44E0-95DE-D2F2E1208A9F.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "com.apple.xpc.launchd.oneshot.0x1000002d.xctest";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.E8CD93F3-ED1B-4D01-B683-7FD045A9B507";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator:/Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/k0/dd091g8x0yv330vn1bhlzfch0000gn/T/090C4F12-C6EC-48E6-A177-D9CC327FB116-42740-00004E5492B829A6/43EF4D5C-4C83-4F88-841B-1D932A894903-%p.profraw%15x";
+}
+00:40:08.798 xctest[42947:521229] App Sandbox active: NO
+00:40:08.798 xctest[42947:521229] Loading test bundle at: file:///Users/ankitthakur/Library/Developer/Xcode/DerivedData/CoreDataDefaults-gbwtbmtmpqjolnggqyuykldmrvak/Build/Products/Debug-iphonesimulator/CoreDataDefaultsTests.xctest/
+00:40:08.854 xctest[42947:521229] Finished loading test bundle
+00:40:08.854 xctest[42947:521229] Readying IDE session
+00:40:08.855 xctest[42947:521229] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+00:40:08.856 xctest[42947:521229] <XCTWaiter: 0x7fb9ffe2f850, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `Exchange protocol versions with daemon`
+00:40:08.857 xctest[42947:521250] <XCTWaiter: 0x7fb9ffe2f850, state: XCTWaiterStateSucceeded>: cancelWaiting
+00:40:08.857 xctest[42947:521229] <XCTWaiter: 0x7fb9ffe2f850, state: XCTWaiterStateSucceeded> done waiting
+00:40:08.857 xctest[42947:521229] Canceling watchdog for <XCTWaiter: 0x7fb9ffe2f850, state: XCTWaiterStateInProgress>.
+00:40:08.857 xctest[42947:521229] <XCTWaiter: 0x7fb9ffe2f850, state: XCTWaiterStateSucceeded> cleaning up `Exchange protocol versions with daemon`
+00:40:08.857 xctest[42947:521229] Got daemon protocol version 26
+00:40:08.858 xctest[42947:521229] Requesting IDE connection transport
+00:40:08.858 xctest[42947:521229] <XCTWaiter: 0x7fb9ffd00930, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Transport for IDE session acquired`
+00:40:08.860 xctest[42947:521253] Creating transport with received transport data
+00:40:08.860 xctest[42947:521253] <XCTWaiter: 0x7fb9ffd00930, state: XCTWaiterStateSucceeded>: cancelWaiting
+00:40:08.860 xctest[42947:521229] <XCTWaiter: 0x7fb9ffd00930, state: XCTWaiterStateSucceeded> done waiting
+00:40:08.860 xctest[42947:521229] Canceling watchdog for <XCTWaiter: 0x7fb9ffd00930, state: XCTWaiterStateInProgress>.
+00:40:08.860 xctest[42947:521229] <XCTWaiter: 0x7fb9ffd00930, state: XCTWaiterStateSucceeded> cleaning up `Transport for IDE session acquired`
+00:40:08.860 xctest[42947:521229] Creating connection with transport <DTXFileDescriptorTransport: 0x7fb9fff04520>
+00:40:08.861 xctest[42947:521229] Creating the proxy channel with connection <DTXConnection 0x7fb9fff05290 : x1>
+00:40:08.861 xctest[42947:521229] Creating future for 'IDE session ready for test plan' with timeout 60.00
+00:40:08.861 xctest[42947:521229] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:29 minimumVersion:7
+00:40:08.862 xctest[42947:521229] <XCTWaiter: 0x7fb9ffe47630, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `IDE session ready for test plan`
+00:40:08.862 xctest[42947:521254] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+00:40:08.867 xctest[42947:521253] _IDE_startExecutingTestPlanWithProtocolVersion:29
+00:40:08.867 xctest[42947:521253] <XCTWaiter: 0x7fb9ffe47630, state: XCTWaiterStateSucceeded>: cancelWaiting
+00:40:08.867 xctest[42947:521229] <XCTWaiter: 0x7fb9ffe47630, state: XCTWaiterStateSucceeded> done waiting
+00:40:08.867 xctest[42947:521229] Canceling watchdog for <XCTWaiter: 0x7fb9ffe47630, state: XCTWaiterStateInProgress>.
+00:40:08.867 xctest[42947:521229] <XCTWaiter: 0x7fb9ffe47630, state: XCTWaiterStateSucceeded> cleaning up `IDE session ready for test plan`
+00:40:08.872 xcodebuild[42740:520651] Starting test plan, clearing initialization timeout timer.
+00:40:08.872 xctest[42947:521229] Entering test execution event loop
+00:40:08.872 xctest[42947:521229] -[XCTRunnerIDESession testBundleWillStart:]
+00:40:08.872 xctest[42947:521229] Loading test suite...
+00:40:08.932 xctest[42947:521229] Finished loading test suite, took 0.059s
+Test Suite 'All tests' started at 2019-01-14 00:40:08.932
+Test Suite 'CoreDataDefaultsTests.xctest' started at 2019-01-14 00:40:08.933
+00:40:08.932 xctest[42947:521229] Running suite...
+00:40:08.932 xctest[42947:521229] -[XCTRunnerIDESession testSuiteWillStart:]
+00:40:08.934 xcodebuild[42740:520651] _XCT_testSuite:All tests didStartAt:2019-01-13 19:10:08 +0000
+00:40:08.933 xctest[42947:521229] -[XCTRunnerIDESession testSuiteWillStart:]
+00:40:08.934 xcodebuild[42740:520651] _XCT_testSuite:CoreDataDefaultsTests.xctest didStartAt:2019-01-13 19:10:08 +0000
+Test Suite 'CoreDataDefaultsTests' started at 2019-01-14 00:40:08.933
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testArray]' started.
+00:40:08.933 xctest[42947:521229] -[XCTRunnerIDESession testSuiteWillStart:]
+00:40:08.935 xcodebuild[42740:520651] _XCT_testSuite:CoreDataDefaultsTests didStartAt:2019-01-13 19:10:08 +0000
+00:40:08.934 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testArray
+00:40:08.935 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testArray
+00:40:08.956 💙 INFO Logger.info():27 - DB Save value for key:arrayValue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testArray]' passed (0.030 seconds).
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testBool]' started.
+00:40:08.964 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+00:40:08.967 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testArray withStatus:passed duration:0.03010296821594238
+00:40:08.965 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testBool
+00:40:08.967 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testBool
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testBool]' passed (0.005 seconds).
+00:40:08.969 💙 INFO Logger.info():27 - DB Save value for key:boolValue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDictionary]' started.
+00:40:08.969 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+00:40:08.973 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testBool withStatus:passed duration:0.004568934440612793
+00:40:08.975 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testDictionary
+00:40:08.971 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testDictionary
+00:40:08.975 💙 INFO Logger.info():27 - DB Save value for key:dictValue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDictionary]' passed (0.006 seconds).
+00:40:08.976 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+00:40:08.978 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testDictionary withStatus:passed duration:0.005656003952026367
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDouble]' started.
+00:40:08.977 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testDouble
+00:40:08.979 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testDouble
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testDouble]' passed (0.002 seconds).
+00:40:08.979 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+00:40:08.981 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testDouble withStatus:passed duration:0.002448081970214844
+00:40:08.980 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testFloat
+00:40:08.982 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testFloat
+00:40:08.979 💙 INFO Logger.info():27 - DB Save value for key:doublevalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testFloat]' started.
+00:40:08.982 💙 INFO Logger.info():27 - DB Save value for key:floatvalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testFloat]' passed (0.002 seconds).
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testInt]' started.
+00:40:08.984 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testFloat withStatus:passed duration:0.001937031745910645
+00:40:08.982 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+00:40:08.982 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testInt
+00:40:08.984 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testInt
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testInt]' passed (0.002 seconds).
+00:40:08.984 💙 INFO Logger.info():27 - DB Save value for key:intvalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testString]' started.
+00:40:08.986 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testInt withStatus:passed duration:0.001820087432861328
+00:40:08.984 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+00:40:08.985 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testString
+00:40:08.986 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testString
+00:40:08.986 💙 INFO Logger.info():27 - DB Save value for key:stringvalue
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testString]' passed (0.002 seconds).
+00:40:08.987 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+00:40:08.988 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testString withStatus:passed duration:0.00162196159362793
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testStruct]' started.
+00:40:08.988 xcodebuild[42740:520651] _XCT_testCaseDidStartForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testStruct
+00:40:08.987 xctest[42947:521229] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDefaultsTests.CoreDataDefaultsTests testStruct
+00:40:08.988 💙 INFO Logger.info():27 - DB Save value for key:struct
+Test Case '-[CoreDataDefaultsTests.CoreDataDefaultsTests testStruct]' passed (0.002 seconds).
+00:40:08.989 xctest[42947:521229] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Suite 'CoreDataDefaultsTests' passed at 2019-01-14 00:40:08.990.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.051 (0.057) seconds
+00:40:08.991 xcodebuild[42740:520651] _XCT_testCaseDidFinishForTestClass:CoreDataDefaultsTests.CoreDataDefaultsTests method:testStruct withStatus:passed duration:0.002454996109008789
+00:40:08.990 xctest[42947:521229] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'CoreDataDefaultsTests.xctest' passed at 2019-01-14 00:40:08.991.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.051 (0.058) seconds
+00:40:08.993 xcodebuild[42740:520651] _XCT_testSuite:CoreDataDefaultsTests didFinishAt:2019-01-13 19:10:08 +0000 runCount:8 withFailures:0 unexpected:0 testDuration:0.05061006546020508 totalDuration:0.05680394172668457
+00:40:08.991 xctest[42947:521229] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'All tests' passed at 2019-01-14 00:40:08.993.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.051 (0.061) seconds
+00:40:08.995 xcodebuild[42740:520651] _XCT_testSuite:CoreDataDefaultsTests.xctest didFinishAt:2019-01-13 19:10:08 +0000 runCount:8 withFailures:0 unexpected:0 testDuration:0.05061006546020508 totalDuration:0.05840492248535156
+00:40:08.993 xctest[42947:521229] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:40:08.996 xcodebuild[42740:520651] _XCT_testSuite:All tests didFinishAt:2019-01-13 19:10:08 +0000 runCount:8 withFailures:0 unexpected:0 testDuration:0.05061006546020508 totalDuration:0.06087005138397217
+00:40:08.996 xcodebuild[42740:520651] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+00:40:08.994 xctest[42947:521229] Finished running suite.
+00:40:08.994 xctest[42947:521229] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+00:40:08.994 xctest[42947:521229] Exited test execution event loop
+00:40:08.994 xctest[42947:521229] Calling completion.
+00:40:08.996 xctest[42947:521229] <XCTWaiter: 0x7fb9fff01ed0, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `IDE confirmed the end of session`
+00:40:08.998 xctest[42947:521259] <XCTWaiter: 0x7fb9fff01ed0, state: XCTWaiterStateSucceeded>: cancelWaiting
+00:40:08.998 xctest[42947:521229] <XCTWaiter: 0x7fb9fff01ed0, state: XCTWaiterStateSucceeded> done waiting
+00:40:08.998 xctest[42947:521229] Canceling watchdog for <XCTWaiter: 0x7fb9fff01ed0, state: XCTWaiterStateInProgress>.
+00:40:08.998 xctest[42947:521229] <XCTWaiter: 0x7fb9fff01ed0, state: XCTWaiterStateSucceeded> cleaning up `IDE confirmed the end of session`
+00:40:09.033 xcodebuild[42740:521215] Closing socket 33 to testmanagerd for Sim iPhone XR
+00:40:09.033 xcodebuild[42740:520651] 📱<DVTiPhoneSimulator (0x7fbfbdc3fb20), iPhone XR, unknown class, 12.1 (16B91), E8CD93F3-ED1B-4D01-B683-7FD045A9B507> got death notice for pid 42947, removing from SimulatorSessionMap
+00:40:09.033 xcodebuild[42740:521215] E8CD93F3-ED1B-4D01-B683-7FD045A9B507: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+00:40:09.034 xcodebuild[42740:520651] 📱<DVTiPhoneSimulator (0x7fbfbdc3fb20), iPhone XR, unknown class, 12.1 (16B91), E8CD93F3-ED1B-4D01-B683-7FD045A9B507> claim LaunchSessionClaim_0x7fbfbddaabb0 on simulator was relinquished
+00:40:09.035 xcodebuild[42740:520651] 📱<DVTiPhoneSimulator (0x7fbfbdc3fb20), iPhone XR, unknown class, 12.1 (16B91), E8CD93F3-ED1B-4D01-B683-7FD045A9B507> claim LaunchSessionClaim_0x7fbfbddaabb0 on simulator was relinquished
+00:40:09.290 xcodebuild[42740:520651] <IDETestOperationCoordinator: 0x7fbfbda98680> finished receiving data from testing launch session
+00:40:09.290 xcodebuild[42740:520651] <IDETestOperationCoordinator: 0x7fbfbda98680>: _considerFlushingDelegateBlockQueue - nothing to flush
+00:40:09.290 xcodebuild[42740:520651] _finishWithError:(null)
