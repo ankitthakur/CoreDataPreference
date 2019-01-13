@@ -31,7 +31,6 @@ class ViewController: UIViewController {
             try CoreDataDefaults.set(value: 2, forKey: "IntValue")
             try CoreDataDefaults.set(value: ["key1": "value1", "key2": "value2"], forKey: "dictionary")
             try CoreDataDefaults.set(value: ["value1", "value2"], forKey: "array")
-            try CoreDataDefaults.set(value: URL(fileURLWithPath: Bundle.main.bundlePath), forKey: "url")
             try CoreDataDefaults.set(value: Struct2(), forKey: "struct")
             try CoreDataDefaults.set(value: true, forKey: "bool")
 
@@ -39,15 +38,15 @@ class ViewController: UIViewController {
             let intValue = try CoreDataDefaults.integer(forKey: "IntValue")
             let dictionary = try CoreDataDefaults.dictionary(forKey: "dictionary")
             let array = try CoreDataDefaults.array(forKey: "array")
-            let url = try CoreDataDefaults.codable(objectType: Struct2.self, forKey: "struct")
             let boolValue = try CoreDataDefaults.boolean(forKey: "bool")
+            let structObj = try CoreDataDefaults.codable(objectType: Struct2.self, forKey: "struct")
 
             print(floatValue! as Any)
             print(intValue! as Any)
             print(dictionary! as Any)
             print(array! as Any)
-            print(url! as Any)
             print(boolValue! as Any)
+            print(structObj! as Any)
 
         } catch let error {
             print(error)

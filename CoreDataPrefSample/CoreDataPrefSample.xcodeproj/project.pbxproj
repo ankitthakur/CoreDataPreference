@@ -14,7 +14,8 @@
 		978A19BD21E8F2E100A271A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978A19BC21E8F2E100A271A8 /* Assets.xcassets */; };
 		978A19C021E8F2E100A271A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978A19BE21E8F2E100A271A8 /* LaunchScreen.storyboard */; };
 		978A19CB21E8F2E100A271A8 /* CoreDataPrefSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978A19CA21E8F2E100A271A8 /* CoreDataPrefSampleTests.swift */; };
-		97E6BE7421EB8184008C6605 /* CoreDataDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E6BE7321EB8184008C6605 /* CoreDataDefaults.framework */; };
+		97E6BE7D21EB8447008C6605 /* CoreDataDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E6BE7821EB83D5008C6605 /* CoreDataDefaults.framework */; };
+		97E6BE7E21EB8447008C6605 /* CoreDataDefaults.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97E6BE7821EB83D5008C6605 /* CoreDataDefaults.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EDA1CD255AC4AEDBF5FED73C /* Pods_CoreDataPrefSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18289B1046D38805A2794DB /* Pods_CoreDataPrefSampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,20 @@
 			remoteInfo = CoreDataPrefSample;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97E6BE7F21EB8447008C6605 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97E6BE7E21EB8447008C6605 /* CoreDataDefaults.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1882675A39E64E909392F8BA /* Pods-CoreDataPrefSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPrefSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPrefSample/Pods-CoreDataPrefSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +61,8 @@
 		978A19D821E8F4E200A271A8 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		978A19DA21E8F4E700A271A8 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		978A19DE21E8F56500A271A8 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97E6BE7321EB8184008C6605 /* CoreDataDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreDataDefaults.framework; sourceTree = "<group>"; };
+		97E6BE7521EB8332008C6605 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E6BE7821EB83D5008C6605 /* CoreDataDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreDataDefaults.framework; sourceTree = "<group>"; };
 		97FA8E5E21EA36B300AFD71F /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FA8E6C21EA42FB00AFD71F /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FA8E7021EA433300AFD71F /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,8 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97E6BE7421EB8184008C6605 /* CoreDataDefaults.framework in Frameworks */,
 				5BE9F6F48C08AA9655D2B50D /* Pods_CoreDataPrefSample.framework in Frameworks */,
+				97E6BE7D21EB8447008C6605 /* CoreDataDefaults.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +106,7 @@
 		978A19A921E8F2DF00A271A8 = {
 			isa = PBXGroup;
 			children = (
-				97E6BE7321EB8184008C6605 /* CoreDataDefaults.framework */,
+				97E6BE7821EB83D5008C6605 /* CoreDataDefaults.framework */,
 				978A19B421E8F2DF00A271A8 /* CoreDataPrefSample */,
 				978A19C921E8F2E100A271A8 /* CoreDataPrefSampleTests */,
 				978A19B321E8F2DF00A271A8 /* Products */,
@@ -133,6 +149,7 @@
 		978A19D521E8F30500A271A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97E6BE7521EB8332008C6605 /* EncryptedCoreData.framework */,
 				97FA8E7021EA433300AFD71F /* EncryptedCoreData.framework */,
 				97FA8E6C21EA42FB00AFD71F /* EncryptedCoreData.framework */,
 				97FA8E5E21EA36B300AFD71F /* EncryptedCoreData.framework */,
@@ -158,6 +175,7 @@
 				978A19AF21E8F2DF00A271A8 /* Frameworks */,
 				978A19B021E8F2DF00A271A8 /* Resources */,
 				C65B9C28E38057D1FC501847 /* [CP] Embed Pods Frameworks */,
+				97E6BE7F21EB8447008C6605 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,11 +309,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-CoreDataPrefSample/Pods-CoreDataPrefSample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EncryptedCoreData/EncryptedCoreData.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EncryptedCoreData.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -402,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -457,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -473,7 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KF5PUYF7H;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -496,7 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KF5PUYF7H;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
