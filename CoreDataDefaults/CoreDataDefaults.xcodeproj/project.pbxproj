@@ -10,7 +10,6 @@
 		523595BFD301EC40561E3BEE /* Pods_CoreDataDefaultsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C986C5648B101555128CC2 /* Pods_CoreDataDefaultsTests.framework */; };
 		9750FE7821EA8D33005D3A66 /* CoreDataDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750FE6E21EA8D32005D3A66 /* CoreDataDefaults.framework */; };
 		9750FE7D21EA8D33005D3A66 /* CoreDataDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9750FE7C21EA8D33005D3A66 /* CoreDataDefaultsTests.swift */; };
-		9750FE7F21EA8D33005D3A66 /* CoreDataDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 9750FE7121EA8D32005D3A66 /* CoreDataDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9750FE9521EA8DE7005D3A66 /* CDDefault+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9750FE8921EA8DE7005D3A66 /* CDDefault+CoreDataClass.swift */; };
 		9750FE9621EA8DE7005D3A66 /* CDDefault+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9750FE8A21EA8DE7005D3A66 /* CDDefault+CoreDataProperties.swift */; };
 		9750FE9721EA8DE7005D3A66 /* CDPref.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9750FE8B21EA8DE7005D3A66 /* CDPref.xcdatamodeld */; };
@@ -41,7 +40,6 @@
 		289A3B0D43EF7E5ADE03A97C /* Pods-CoreDataDefaults.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataDefaults.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataDefaults/Pods-CoreDataDefaults.debug.xcconfig"; sourceTree = "<group>"; };
 		3C571A1FF10F71E92166678E /* Pods-CoreDataDefaults.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataDefaults.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataDefaults/Pods-CoreDataDefaults.release.xcconfig"; sourceTree = "<group>"; };
 		9750FE6E21EA8D32005D3A66 /* CoreDataDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9750FE7121EA8D32005D3A66 /* CoreDataDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataDefaults.h; sourceTree = "<group>"; };
 		9750FE7221EA8D32005D3A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9750FE7721EA8D33005D3A66 /* CoreDataDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9750FE7C21EA8D33005D3A66 /* CoreDataDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDefaultsTests.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				9750FE9121EA8DE7005D3A66 /* Logger */,
 				9750FE8821EA8DE7005D3A66 /* Model */,
 				9750FE8D21EA8DE7005D3A66 /* Obfuscator */,
-				9750FE7121EA8D32005D3A66 /* CoreDataDefaults.h */,
 				9750FE7221EA8D32005D3A66 /* Info.plist */,
 			);
 			path = CoreDataDefaults;
@@ -200,7 +197,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9750FE7F21EA8D33005D3A66 /* CoreDataDefaults.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.cdPref.CoreDataDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -568,6 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.cdPref.CoreDataDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
