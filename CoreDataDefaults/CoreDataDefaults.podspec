@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CoreDataDefaults"
   s.summary          = "Using Core Data similar to UserDefault"
-  s.version          = "0.0.3"
+  s.version          = "1.0.0"
   s.homepage         = "https://github.com/ankitthakur/CoreDataPreference"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Ankit Thakur" => "ankitthakur85@icloud.com" }
@@ -30,4 +30,6 @@ Pod::Spec.new do |s|
 
   s.ios.frameworks = 'CoreData', 'Foundation'
 
+  # s.dependency 'EncryptedCoreData, :git => https://github.com/project-imas/encrypted-core-data, :commit => b97ffaf2f19dad4d1558bc9b0668cc2e09d17347'
+  # s.dependency 'SwiftyBeaver'
 end

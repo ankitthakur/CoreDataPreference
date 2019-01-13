@@ -9,7 +9,6 @@
 import Foundation
 import EncryptedCoreData
 
-internal let salt = [49, 17, 3, 55, 18, 3, 23, 3]
 internal extension CodingUserInfoKey {
     static let mainManagedObjectContext = CodingUserInfoKey(rawValue: "mainManagedObjectContext")
     static let backgrounManagedObjectContext = CodingUserInfoKey(rawValue: "backgrounManagedObjectContext")
@@ -84,10 +83,7 @@ internal final class CoreDataManager {
 //        print(val)
 
         coordinator = EncryptedStore.make(options: [EncryptedStorePassphraseKey: "SOME_PASSWORD",
-                                                    EncryptedStoreDatabaseLocation: description,
-                                                    NSMigratePersistentStoresAutomaticallyOption: true,
-                                                    NSInferMappingModelAutomaticallyOption: true,
-                                                    EncryptedStoreCacheSize: 2345],
+                                                    EncryptedStoreDatabaseLocation: description],
                                           managedObjectModel: managedObjectModel)
 
         return coordinator!
