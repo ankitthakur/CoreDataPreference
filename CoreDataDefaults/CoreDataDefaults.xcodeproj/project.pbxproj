@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		523595BFD301EC40561E3BEE /* Pods_CoreDataDefaultsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C986C5648B101555128CC2 /* Pods_CoreDataDefaultsTests.framework */; };
+		972CF0EF21EB45BE00F8F7FD /* CoreDataDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972CF0EE21EB45BE00F8F7FD /* CoreDataDefaults.swift */; };
 		9750FE7821EA8D33005D3A66 /* CoreDataDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750FE6E21EA8D32005D3A66 /* CoreDataDefaults.framework */; };
 		9750FE7D21EA8D33005D3A66 /* CoreDataDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9750FE7C21EA8D33005D3A66 /* CoreDataDefaultsTests.swift */; };
 		9750FE7F21EA8D33005D3A66 /* CoreDataDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 9750FE7121EA8D32005D3A66 /* CoreDataDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,7 +22,6 @@
 		97DDF02521EA905E00E4F9B6 /* EncryptedCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DDF02421EA905E00E4F9B6 /* EncryptedCoreData.framework */; };
 		97DDF02721EA905E00E4F9B6 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DDF02621EA905E00E4F9B6 /* SwiftyBeaver.framework */; };
 		97DDF02A21EA91FA00E4F9B6 /* CoreDataPrefCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DDF02821EA91FA00E4F9B6 /* CoreDataPrefCollection.swift */; };
-		97DDF02B21EA91FA00E4F9B6 /* CoreDataPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DDF02921EA91FA00E4F9B6 /* CoreDataPref.swift */; };
 		CEB06C3E104048CA6B6EB73B /* Pods_CoreDataDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D700B88C8D016BC9F302BBE7 /* Pods_CoreDataDefaults.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 		1AEFBC1415C1AA86449E383D /* Pods-CoreDataDefaultsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataDefaultsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataDefaultsTests/Pods-CoreDataDefaultsTests.release.xcconfig"; sourceTree = "<group>"; };
 		289A3B0D43EF7E5ADE03A97C /* Pods-CoreDataDefaults.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataDefaults.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataDefaults/Pods-CoreDataDefaults.debug.xcconfig"; sourceTree = "<group>"; };
 		3C571A1FF10F71E92166678E /* Pods-CoreDataDefaults.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataDefaults.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataDefaults/Pods-CoreDataDefaults.release.xcconfig"; sourceTree = "<group>"; };
+		972CF0EE21EB45BE00F8F7FD /* CoreDataDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDefaults.swift; sourceTree = "<group>"; };
 		9750FE6E21EA8D32005D3A66 /* CoreDataDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9750FE7121EA8D32005D3A66 /* CoreDataDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataDefaults.h; sourceTree = "<group>"; };
 		9750FE7221EA8D32005D3A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		97DDF02421EA905E00E4F9B6 /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DDF02621EA905E00E4F9B6 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DDF02821EA91FA00E4F9B6 /* CoreDataPrefCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPrefCollection.swift; sourceTree = "<group>"; };
-		97DDF02921EA91FA00E4F9B6 /* CoreDataPref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPref.swift; sourceTree = "<group>"; };
 		C22C74CBE5751B66E4E9E4BE /* Pods-CoreDataDefaultsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataDefaultsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataDefaultsTests/Pods-CoreDataDefaultsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D700B88C8D016BC9F302BBE7 /* Pods_CoreDataDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,7 +118,7 @@
 		9750FE7021EA8D32005D3A66 /* CoreDataDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				97DDF02921EA91FA00E4F9B6 /* CoreDataPref.swift */,
+				972CF0EE21EB45BE00F8F7FD /* CoreDataDefaults.swift */,
 				97DDF02821EA91FA00E4F9B6 /* CoreDataPrefCollection.swift */,
 				9750FE8F21EA8DE7005D3A66 /* CoreDataHelper */,
 				9750FE9321EA8DE7005D3A66 /* DataManager */,
@@ -367,7 +367,7 @@
 			files = (
 				9750FE9921EA8DE7005D3A66 /* ManagedObectExtension.swift in Sources */,
 				9750FE9A21EA8DE7005D3A66 /* Logger.swift in Sources */,
-				97DDF02B21EA91FA00E4F9B6 /* CoreDataPref.swift in Sources */,
+				972CF0EF21EB45BE00F8F7FD /* CoreDataDefaults.swift in Sources */,
 				9750FE9621EA8DE7005D3A66 /* CDDefault+CoreDataProperties.swift in Sources */,
 				97DDF02A21EA91FA00E4F9B6 /* CoreDataPrefCollection.swift in Sources */,
 				9750FE9721EA8DE7005D3A66 /* CDPref.xcdatamodeld in Sources */,
