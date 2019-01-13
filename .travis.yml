@@ -5,8 +5,6 @@ language: swift
 
 script:
 - cd ./CoreDataPref
-- swift build
-- xcodebuild -list -workspace ./CoreDataPref.xcworkspace
-- xcodebuild clean build -workspace ./CoreDataPref.xcworkspace -scheme CoreDataPref -sdk iphonesimulator12.1
-- xcodebuild test -workspace ./CoreDataPref.xcworkspace -scheme CoreDataPref -sdk iphonesimulator12.1
-- xcodebuild clean build -workspace ./CoreDataPref.xcworkspace -scheme CoreDataPrefSample -sdk iphonesimulator12.1
+- xcodebuild -list -workspace ./CoreDataDefaults.xcworkspace
+- xcodebuild clean build -workspace ./CoreDataDefaults.xcworkspace -scheme CoreDataDefaults -sdk iphonesimulator12.1
+- xcodebuild test -workspace ./CoreDataDefaults.xcworkspace -scheme CoreDataDefaults -sdk iphonesimulator12.1

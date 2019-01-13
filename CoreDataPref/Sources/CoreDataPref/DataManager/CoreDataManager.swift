@@ -9,6 +9,7 @@
 import Foundation
 import EncryptedCoreData
 
+internal let salt = [49, 17, 3, 55, 18, 3, 23, 3]
 internal extension CodingUserInfoKey {
     static let mainManagedObjectContext = CodingUserInfoKey(rawValue: "mainManagedObjectContext")
     static let backgrounManagedObjectContext = CodingUserInfoKey(rawValue: "backgrounManagedObjectContext")
@@ -74,6 +75,13 @@ internal final class CoreDataManager {
         let documentsDirectoryURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
         let persistentStoreURL = documentsDirectoryURL.appendingPathComponent(storeName)
         let description = persistentStoreURL.description
+        
+        let obfuscator = Obfuscator(with: "\(String(describing: CoreDataPref.self))\(String(describing: String.self))\(String(describing: NSObject.self))")
+        let password = obfuscator.bytesByObfuscatingString(string: "random_password")
+        print(password)
+        
+        let val = obfuscator.reveal(key: password)
+        print(val)
 
         coordinator = EncryptedStore.make(options: [EncryptedStorePassphraseKey: "SOME_PASSWORD",
                                                     EncryptedStoreDatabaseLocation: description,

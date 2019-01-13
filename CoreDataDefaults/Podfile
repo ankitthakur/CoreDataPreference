@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '8.4'
+
+target 'CoreDataDefaults' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CoreDataDefaults
+  pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data', :commit => 'b97ffaf2f19dad4d1558bc9b0668cc2e09d17347'
+  pod 'SwiftyBeaver'
+  
+  target 'CoreDataDefaultsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -7,7 +7,7 @@
 		<key>CoreDataPref-Package.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -19,14 +19,14 @@
 		<key>CoreDataPrefPackageDescription.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
 		<key>CoreDataPrefPackageTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>

@@ -4,35 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EncryptedCoreData.xcscheme</key>
+		<key>EncryptedCoreData.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>Pods-CoreDataPref.xcscheme</key>
+		<key>Pods-CoreDataPref.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>Pods-CoreDataPrefPackageDescription.xcscheme</key>
+		<key>Pods-CoreDataPrefPackageDescription.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>Pods-CoreDataPrefTests.xcscheme</key>
+		<key>Pods-CoreDataPrefTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>SQLCipher.xcscheme</key>
+		<key>SQLCipher.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>SwiftyBeaver.xcscheme</key>
+		<key>SwiftyBeaver.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
