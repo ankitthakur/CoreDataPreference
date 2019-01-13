@@ -2,7 +2,8 @@
 Using core data as UserDefault settings with encryption (EncryptedCoreData)
 
 
-We have created a framework named `CoreDataPref` 
+[![Build Status](https://travis-ci.org/ankitthakur/CoreDataPreference?branch=master)](https://travis-ci.org/ankitthakur/CoreDataPreference)
+
 
 * Integration
 
@@ -61,19 +62,13 @@ Here is the Swift Lint Report:
     $ swiftlint
     Loading configuration from '.swiftlint.yml'
     Linting Swift files at paths
-    Linting 'AppDelegate.swift' (1/14)
-    Linting 'CoreDataPrefSampleTests.swift' (2/14)
-    Linting 'CoreDataPrefTests.swift' (3/14)
-    Linting 'ViewController.swift' (4/14)
-    Linting 'XCTestManifests.swift' (5/14)
-    Linting 'Package.swift' (6/14)
-    Linting 'LinuxMain.swift' (7/14)
-    Linting 'ManagedObectExtension.swift' (8/14)
-    Linting 'Logger.swift' (9/14)
-    Linting 'CoreDataManager.swift' (10/14)
-    Linting 'CoreDataPrefCollection.swift' (11/14)
-    Linting 'CoreDataPref.swift' (12/14)
-    Linting 'CDDefault+CoreDataClass.swift' (13/14)
-    Linting 'CDDefault+CoreDataProperties.swift' (14/14)
-    Done linting! Found 0 violations, 0 serious in 14 files.
+    Linting 'ManagedObectExtension.swift' (1/9)
+    Linting 'Logger.swift' (2/9)
+    Linting 'Obfuscator.swift' (3/9)
+    Linting 'CoreDataManager.swift' (4/9)
+    Linting 'CoreDataPrefCollection.swift' (5/9)
+    Linting 'CDDefault+CoreDataClass.swift' (6/9)
+    Linting 'CDDefault+CoreDataProperties.swift' (7/9)
+    Linting 'CoreDataDefaults.swift' (8/9)
+    Linting 'CoreDataDefaultsTests.swift' (9/9)
 
