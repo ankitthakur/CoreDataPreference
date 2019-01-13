@@ -24,6 +24,14 @@ In Project pod file, add above 2 dependencies:
 Then add CoreDataDefaults.framework as `Embedded framework` in Main project
 [![Embedded framework](https://github.com/ankitthakur/CoreDataPreference/blob/master/embedded_binary.png)]
 
+**Code Coverage**
+
+[![Code Coverage](https://github.com/ankitthakur/CoreDataPreference/blob/master/code_coverage_report.png)]
+
+**Test Report**
+
+[![Code Coverage](https://github.com/ankitthakur/CoreDataPreference/blob/master/test_report.png)]
+
 Code Sample
 
     do {
