@@ -14,8 +14,7 @@
 		9753456021EB701400B11BE6 /* ManagedObectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455221EB701400B11BE6 /* ManagedObectExtension.swift */; };
 		9753456121EB701400B11BE6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455421EB701400B11BE6 /* Logger.swift */; };
 		9753456221EB701400B11BE6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455621EB701400B11BE6 /* CoreDataManager.swift */; };
-		9753456321EB701400B11BE6 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455821EB701400B11BE6 /* Obfuscator.swift */; };
-		9753456421EB701400B11BE6 /* CoreDataPrefCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455921EB701400B11BE6 /* CoreDataPrefCollection.swift */; };
+		9753456421EB701400B11BE6 /* CoreDataDefaultsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455921EB701400B11BE6 /* CoreDataDefaultsCollection.swift */; };
 		9753456521EB701400B11BE6 /* CDDefault+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455B21EB701400B11BE6 /* CDDefault+CoreDataClass.swift */; };
 		9753456621EB701400B11BE6 /* CDDefault+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753455C21EB701400B11BE6 /* CDDefault+CoreDataProperties.swift */; };
 		9753456721EB701400B11BE6 /* CDPref.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9753455D21EB701400B11BE6 /* CDPref.xcdatamodeld */; };
@@ -47,7 +46,7 @@
 		9753455421EB701400B11BE6 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		9753455621EB701400B11BE6 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9753455821EB701400B11BE6 /* Obfuscator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obfuscator.swift; sourceTree = "<group>"; };
-		9753455921EB701400B11BE6 /* CoreDataPrefCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPrefCollection.swift; sourceTree = "<group>"; };
+		9753455921EB701400B11BE6 /* CoreDataDefaultsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDefaultsCollection.swift; sourceTree = "<group>"; };
 		9753455B21EB701400B11BE6 /* CDDefault+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDDefault+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9753455C21EB701400B11BE6 /* CDDefault+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDDefault+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9753455E21EB701400B11BE6 /* CDPref.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDPref.xcdatamodel; sourceTree = "<group>"; };
@@ -133,7 +132,7 @@
 				9753455321EB701400B11BE6 /* Logger */,
 				9753455521EB701400B11BE6 /* DataManager */,
 				9753455721EB701400B11BE6 /* Obfuscator */,
-				9753455921EB701400B11BE6 /* CoreDataPrefCollection.swift */,
+				9753455921EB701400B11BE6 /* CoreDataDefaultsCollection.swift */,
 				9753455A21EB701400B11BE6 /* Model */,
 				9753455F21EB701400B11BE6 /* CoreDataDefaults.swift */,
 			);
@@ -383,14 +382,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9753456421EB701400B11BE6 /* CoreDataPrefCollection.swift in Sources */,
+				9753456421EB701400B11BE6 /* CoreDataDefaultsCollection.swift in Sources */,
 				9753456221EB701400B11BE6 /* CoreDataManager.swift in Sources */,
 				9753456521EB701400B11BE6 /* CDDefault+CoreDataClass.swift in Sources */,
 				9753456021EB701400B11BE6 /* ManagedObectExtension.swift in Sources */,
 				9753456821EB701400B11BE6 /* CoreDataDefaults.swift in Sources */,
 				9753456621EB701400B11BE6 /* CDDefault+CoreDataProperties.swift in Sources */,
 				9753456121EB701400B11BE6 /* Logger.swift in Sources */,
-				9753456321EB701400B11BE6 /* Obfuscator.swift in Sources */,
 				9753456721EB701400B11BE6 /* CDPref.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -524,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

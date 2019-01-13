@@ -26,8 +26,8 @@ public extension CoreDataDefaults {
 
     static func set(value: String, forKey key: String) throws {
         do {
-            let data = value.data(using: .utf8)
-            try CoreDataDefaults.set(value: data, forKey: key)
+            let data:Data = value.data(using: .utf8)! 
+            try CoreDataDefaults.setData(value: data, forKey: key)
         } catch let error {
             print(error)
         }
@@ -54,7 +54,7 @@ public extension CoreDataDefaults {
         do {
 
             let data = withUnsafeBytes(of: value) { Data($0) }
-            try CoreDataDefaults.set(value: data, forKey: key)
+            try CoreDataDefaults.setData(value: data, forKey: key)
         } catch let error {
             print(error)
         }
@@ -80,7 +80,7 @@ public extension CoreDataDefaults {
     static func set(value: Float, forKey key: String) throws {
         do {
             let data = withUnsafeBytes(of: value) { Data($0) }
-            try CoreDataDefaults.set(value: data, forKey: key)
+            try CoreDataDefaults.setData(value: data, forKey: key)
         } catch let error {
             print(error)
         }
@@ -107,7 +107,7 @@ public extension CoreDataDefaults {
         do {
 
             let data = withUnsafeBytes(of: value) { Data($0) }
-            try CoreDataDefaults.set(value: data, forKey: key)
+            try CoreDataDefaults.setData(value: data, forKey: key)
         } catch let error {
             print(error)
         }
@@ -117,8 +117,8 @@ public extension CoreDataDefaults {
         do {
             let data = try CoreDataDefaults.data(forKey: key)
             let booleanValue: Int = data!.withUnsafeBytes { (pointer: UnsafePointer<Int>) -> Int? in
-                    if MemoryLayout<Bool>.size != data!.count { return nil }
-                    return pointer.pointee
+                if MemoryLayout<Int>.size != data!.count { return nil }
+                return pointer.pointee
                 } ?? 0
 
             return booleanValue != 0
@@ -134,7 +134,8 @@ public extension CoreDataDefaults {
         do {
 
             let intValue = value ? 1 : 0
-            try CoreDataDefaults.set(value: intValue, forKey: key)
+            let data = withUnsafeBytes(of: intValue) { Data($0) }
+            try CoreDataDefaults.setData(value: data, forKey: key)
         } catch let error {
             print(error)
             throw error

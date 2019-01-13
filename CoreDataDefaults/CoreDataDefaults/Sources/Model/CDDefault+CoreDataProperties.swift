@@ -11,10 +11,6 @@ import CoreData
 
 extension CDDefault: ManagedObjectProtocol {
 
-    @nonobjc internal class func fetchRequest() -> NSFetchRequest<CDDefault> {
-        return NSFetchRequest<CDDefault>(entityName: "CDDefault")
-    }
-
     @NSManaged public var key: String
     @NSManaged public var value: NSData?
 }

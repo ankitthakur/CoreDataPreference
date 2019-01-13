@@ -6,5 +6,15 @@ language: swift
 script:
 - cd ./CoreDataDefaults
 - xcodebuild -list -workspace ./CoreDataDefaults.xcworkspace
+
 - xcodebuild clean build -workspace ./CoreDataDefaults.xcworkspace -scheme CoreDataDefaults -sdk iphonesimulator12.1
-- xcodebuild test -workspace ./CoreDataDefaults.xcworkspace -scheme CoreDataDefaults -sdk iphonesimulator12.1
+
+before_install:
+  - gem install xcov --no-ri --no-rdoc --no-document
+  - fastlane env
+  - bash <(curl -s https://raw.githubusercontent.com/TitouanVanBelle/XCTestHTMLReport/master/install.sh)
+after_success:
+  - rm -rf ./TestResults
+  - xcodebuild test -workspace CoreDataDefaults.xcworkspace -scheme CoreDataDefaults  -sdk iphonesimulator12.1 -destination 'platform=iOS Simulator,name=iPhone XR' -resultBundlePath TestResults
+  - xcov -w CoreDataDefaults.xcworkspace -s CoreDataDefaults -o xcov_output --coveralls_service_name travis-ci --coveralls_service_job_id $TRAVIS_JOB_ID
+  - xchtmlreport -r TestResults

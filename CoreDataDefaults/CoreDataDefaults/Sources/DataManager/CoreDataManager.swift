@@ -54,16 +54,26 @@ internal final class CoreDataManager {
 
     private lazy var managedObjectModel: NSManagedObjectModel = {
         let bundle = Bundle(for: type(of: self))
+        var managedObjectModel: NSManagedObjectModel?
+        
         let val = bundle.url(forResource: self.modelName, withExtension: "momd")
         guard let modelURL = Bundle(for: type(of: self)).url(forResource: self.modelName, withExtension: "momd") else {
             fatalError("Unable to Find Data Model")
         }
-
-        guard let managedObjectModel = NSManagedObjectModel(contentsOf: modelURL) else {
-            fatalError("Unable to Load Data Model")
+        
+        if self.isStoreTypeInStore {
+            
+            managedObjectModel = NSManagedObjectModel.mergedModel(from: [Bundle(for: type(of: self))])
+            
+        } else {
+            
+            guard let model = NSManagedObjectModel(contentsOf: modelURL) else {
+                fatalError("Unable to Load Data Model")
+            }
+            managedObjectModel = model
         }
-
-        return managedObjectModel
+        
+        return managedObjectModel!
     }()
 
     private lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator = {
@@ -75,16 +85,24 @@ internal final class CoreDataManager {
         let persistentStoreURL = documentsDirectoryURL.appendingPathComponent(storeName)
         let description = persistentStoreURL.description
         
-//        let obfuscator = Obfuscator(with: "\(String(describing: CoreDataDefaults.self))\(String(describing: String.self))\(String(describing: NSObject.self))")
-//        let password = obfuscator.bytesByObfuscatingString(string: "random_password")
-//        print(password)
-//        
-//        let val = obfuscator.reveal(key: password)
-//        print(val)
-
-        coordinator = EncryptedStore.make(options: [EncryptedStorePassphraseKey: "SOME_PASSWORD",
-                                                    EncryptedStoreDatabaseLocation: description],
-                                          managedObjectModel: managedObjectModel)
+        if self.isStoreTypeInStore {
+            coordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel)
+            do{
+                try coordinator?.addPersistentStore(ofType: NSInMemoryStoreType,
+                                                configurationName: nil,
+                                                at: persistentStoreURL,
+                                                options: nil)
+            }
+            catch let error {
+                
+            }
+            
+        } else {
+            coordinator = EncryptedStore.make(options: [EncryptedStorePassphraseKey: "SOME_PASSWORD",
+                                                        EncryptedStoreDatabaseLocation: description,
+                                                        EncryptedStoreCacheSize: 5000],
+                                              managedObjectModel: managedObjectModel)
+        }
 
         return coordinator!
     }()

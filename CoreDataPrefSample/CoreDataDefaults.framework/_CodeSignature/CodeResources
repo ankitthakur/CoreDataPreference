@@ -22,23 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nh/EJiNxYfR6+ql34MLtLwKP+Sg=
-		</data>
-		<key>Modules/CoreDataDefaults.swiftmodule/i386.swiftdoc</key>
-		<data>
-		RM7ywgYrPjvmxuTobTwP1J69c1o=
-		</data>
-		<key>Modules/CoreDataDefaults.swiftmodule/i386.swiftmodule</key>
-		<data>
-		94vUPkJPF+OZjej010m25EnnoNM=
+		v+HgHmPYnyji3OiWc1+npSmBmE8=
 		</data>
 		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Ear22N46UN7uaKhTEr5gFPU7Xr0=
+		04VnB/N55oVuYBUh1/8m8Vui3DU=
 		</data>
 		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		dd6iE4tQ94R1taDX4BbQfM+QmBE=
+		HvumWvvQzlhO2Tw18pcaFEpPr6o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,48 +83,26 @@
 			metUnJdESvrOhNSHw+qMLCiPq+y2993MPqNXfCymAiE=
 			</data>
 		</dict>
-		<key>Modules/CoreDataDefaults.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RM7ywgYrPjvmxuTobTwP1J69c1o=
-			</data>
-			<key>hash2</key>
-			<data>
-			VC+nI8D3qbNeK3mjOK9b3Ko1Vnq9Wap75dxqBtzvRN4=
-			</data>
-		</dict>
-		<key>Modules/CoreDataDefaults.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			94vUPkJPF+OZjej010m25EnnoNM=
-			</data>
-			<key>hash2</key>
-			<data>
-			ULwjfge0WT7gKV/7GotUOz5BgttWaYo5bAxG7ArxVPw=
-			</data>
-		</dict>
 		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ear22N46UN7uaKhTEr5gFPU7Xr0=
+			04VnB/N55oVuYBUh1/8m8Vui3DU=
 			</data>
 			<key>hash2</key>
 			<data>
-			1keoaWAGj9aCDHE7KoZITakKc9uHBn3U7D8opT6HXgM=
+			Kru2eQDBjN0IKPB3uH0vYXsBEEUnFeUGPTlg5rG1Iog=
 			</data>
 		</dict>
 		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dd6iE4tQ94R1taDX4BbQfM+QmBE=
+			HvumWvvQzlhO2Tw18pcaFEpPr6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			uMLKOEceVGpZvtXeoK+LsqddgvJi9jB1Sg9c+um7+Hw=
+			d+0DdASTxvSD5dFeg/5wx3Ydrqx/NeN6kz4ekZwhBog=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

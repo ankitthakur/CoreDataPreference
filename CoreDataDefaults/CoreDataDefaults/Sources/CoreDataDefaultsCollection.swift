@@ -41,24 +41,28 @@ public extension CoreDataDefaults {
 
     static func set(value: [Any], forKey key: String) throws {
         let data = try JSONSerialization.data(withJSONObject: value, options: .prettyPrinted)
-        try CoreDataDefaults.set(value: data, forKey: key)
+        try CoreDataDefaults.setData(value: data, forKey: key)
 
     }
 
     static func set(value: [String: Any], forKey key: String) throws {
         let data = try JSONSerialization.data(withJSONObject: value, options: .prettyPrinted)
-        try CoreDataDefaults.set(value: data, forKey: key)
+        try CoreDataDefaults.setData(value: data, forKey: key)
 
     }
-
+    
     static func set(value: Data, forKey key: String) throws {
+        try CoreDataDefaults.setData(value: value, forKey: key)
+    }
+    
+    internal static func setData(value: Data, forKey key: String) throws {
         try CDDefault.save(key: key, jsonData: value, entity: CDDefault.self)
     }
 
     static func set<T: Codable>(value: T, forKey key: String) throws {
 
         let jsonData = try JSONEncoder().encode(value)
-        try CoreDataDefaults.set(value: jsonData, forKey: key)
+        try CoreDataDefaults.setData(value: jsonData, forKey: key)
     }
 
 }
