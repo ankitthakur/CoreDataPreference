@@ -46,6 +46,9 @@ Code Sample
         let dictionary = try CoreDataPref.dictionary(forKey: "dictionary")
         let array = try CoreDataPref.array(forKey: "array")
         let boolValue = try CoreDataPref.boolean(forKey: "bool")
+        
+        // to remove any value
+        try CoreDataDefaults.remove(valueForKey: "arrayValue")        
 
     } catch let error {
         print(error)
