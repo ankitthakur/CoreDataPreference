@@ -1,6 +1,4 @@
 PODS:
-  - CoreDataPref (0.0.1):
-    - EncryptedCoreData (= 3.1)
   - EncryptedCoreData (3.1):
     - SQLCipher (~> 3.4.0)
   - SQLCipher (3.4.2):
@@ -10,7 +8,6 @@ PODS:
     - SQLCipher/common
 
 DEPENDENCIES:
-  - CoreDataPref (from `../CoreDataPref`)
   - EncryptedCoreData (from `https://github.com/project-imas/encrypted-core-data`, commit `b97ffaf2f19dad4d1558bc9b0668cc2e09d17347`)
 
 SPEC REPOS:
@@ -18,8 +15,6 @@ SPEC REPOS:
     - SQLCipher
 
 EXTERNAL SOURCES:
-  CoreDataPref:
-    :path: "../CoreDataPref"
   EncryptedCoreData:
     :commit: b97ffaf2f19dad4d1558bc9b0668cc2e09d17347
     :git: https://github.com/project-imas/encrypted-core-data
@@ -30,10 +25,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/project-imas/encrypted-core-data
 
 SPEC CHECKSUMS:
-  CoreDataPref: 761c635d0e143716546032370db525a0365272f9
   EncryptedCoreData: f6762fb05f88a52f36c5648659abc91b57f244b4
   SQLCipher: f9fcf29b2e59ced7defc2a2bdd0ebe79b40d4990
 
-PODFILE CHECKSUM: eadb6e264d28273fd98ad5847dca335349c5eeaf
+PODFILE CHECKSUM: dafff9898955db2ace209e718e74fe598ccbba4d
 
 COCOAPODS: 1.5.3

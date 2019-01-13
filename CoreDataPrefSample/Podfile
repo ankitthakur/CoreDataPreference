@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '8.4'
 
 # ignore all warnings from all dependencies
 inhibit_all_warnings!
@@ -10,7 +10,6 @@ target 'CoreDataPrefSample' do
 
   # Pods for CoreDataPrefSample
   pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data', :commit => 'b97ffaf2f19dad4d1558bc9b0668cc2e09d17347'
-  pod 'CoreDataPref', :path => '../CoreDataPref'
   target 'CoreDataPrefSampleTests' do
     inherit! :search_paths
     # Pods for testing

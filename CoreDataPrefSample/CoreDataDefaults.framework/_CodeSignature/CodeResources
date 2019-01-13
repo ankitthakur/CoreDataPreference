@@ -12,21 +12,29 @@
 		<data>
 		fU3T/eT2lBMPhuAX59XcdIGPM18=
 		</data>
-		<key>Headers/CoreDataPref-Swift.h</key>
+		<key>Headers/CoreDataDefaults-Swift.h</key>
 		<data>
-		STjV3GvD8cePEaLzEo1Of6pPEzY=
+		T2HyTZzGSa2eK5LmJzaQDadqluo=
+		</data>
+		<key>Headers/CoreDataDefaults.h</key>
+		<data>
+		HPcu8Csp9VvHvmzOhXGKuv6J1Xc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		D9cnl+lq9CSh81fU/n97vy2ae0o=
+		nh/EJiNxYfR6+ql34MLtLwKP+Sg=
 		</data>
-		<key>Modules/CoreDataPref.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Ear22N46UN7uaKhTEr5gFPU7Xr0=
+		04VnB/N55oVuYBUh1/8m8Vui3DU=
 		</data>
-		<key>Modules/CoreDataPref.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		PDucEthRaFYOIaA7yJantNYr0Lw=
+		MdW6lvPnd7aaVw3a+Jg5pcGDVro=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		b3zCGW14uaoUZ3T2ViC21dBMRtk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -53,37 +61,59 @@
 			wXTp68wrtBnH+5Fn9Ck49PJrQwtjfPNry7zxspppNRY=
 			</data>
 		</dict>
-		<key>Headers/CoreDataPref-Swift.h</key>
+		<key>Headers/CoreDataDefaults-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			STjV3GvD8cePEaLzEo1Of6pPEzY=
+			T2HyTZzGSa2eK5LmJzaQDadqluo=
 			</data>
 			<key>hash2</key>
 			<data>
-			R0Z+tQcJGBGOwJ3mq2uj/Oc4zVifwXRuFXw4lhQykHs=
+			NmOshsNnF1ROtI6ebt4RBX+2UO6grw6VqG3Zhnu+lCk=
 			</data>
 		</dict>
-		<key>Modules/CoreDataPref.swiftmodule/x86_64.swiftdoc</key>
+		<key>Headers/CoreDataDefaults.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ear22N46UN7uaKhTEr5gFPU7Xr0=
+			HPcu8Csp9VvHvmzOhXGKuv6J1Xc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1keoaWAGj9aCDHE7KoZITakKc9uHBn3U7D8opT6HXgM=
+			metUnJdESvrOhNSHw+qMLCiPq+y2993MPqNXfCymAiE=
 			</data>
 		</dict>
-		<key>Modules/CoreDataPref.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PDucEthRaFYOIaA7yJantNYr0Lw=
+			04VnB/N55oVuYBUh1/8m8Vui3DU=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiV5qHsDyf2r84Q47ZI9UkZm/LLV5+zI7iTSpovYsgM=
+			Kru2eQDBjN0IKPB3uH0vYXsBEEUnFeUGPTlg5rG1Iog=
+			</data>
+		</dict>
+		<key>Modules/CoreDataDefaults.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MdW6lvPnd7aaVw3a+Jg5pcGDVro=
+			</data>
+			<key>hash2</key>
+			<data>
+			k0sldBkfL3sN/lsbaMgLUatflgMczD8w5C8EW1LK43E=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b3zCGW14uaoUZ3T2ViC21dBMRtk=
+			</data>
+			<key>hash2</key>
+			<data>
+			7C5h2p8PlBmI0AlDCiK+RmILREyyChu8M+Dk1YlT/RI=
 			</data>
 		</dict>
 	</dict>

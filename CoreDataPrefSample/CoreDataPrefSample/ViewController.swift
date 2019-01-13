@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CoreDataPref
+import CoreDataDefaults
 
 struct Struct1: Codable {
     let value1 = "value1"
@@ -27,20 +27,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         do {
-            try CoreDataPref.set(value: Float(2.0), forKey: "floatValue")
-            try CoreDataPref.set(value: 2, forKey: "IntValue")
-            try CoreDataPref.set(value: ["key1": "value1", "key2": "value2"], forKey: "dictionary")
-            try CoreDataPref.set(value: ["value1", "value2"], forKey: "array")
-            try CoreDataPref.set(value: URL(fileURLWithPath: Bundle.main.bundlePath), forKey: "url")
-            try CoreDataPref.set(value: Struct2(), forKey: "struct")
-            try CoreDataPref.set(value: true, forKey: "bool")
+            try CoreDataDefaults.set(value: Float(2.0), forKey: "floatValue")
+            try CoreDataDefaults.set(value: 2, forKey: "IntValue")
+            try CoreDataDefaults.set(value: ["key1": "value1", "key2": "value2"], forKey: "dictionary")
+            try CoreDataDefaults.set(value: ["value1", "value2"], forKey: "array")
+            try CoreDataDefaults.set(value: URL(fileURLWithPath: Bundle.main.bundlePath), forKey: "url")
+            try CoreDataDefaults.set(value: Struct2(), forKey: "struct")
+            try CoreDataDefaults.set(value: true, forKey: "bool")
 
-            let floatValue = try CoreDataPref.float(forKey: "floatValue")
-            let intValue = try CoreDataPref.integer(forKey: "IntValue")
-            let dictionary = try CoreDataPref.dictionary(forKey: "dictionary")
-            let array = try CoreDataPref.array(forKey: "array")
-            let url = try CoreDataPref.codable(objectType: Struct2.self, forKey: "struct")
-            let boolValue = try CoreDataPref.boolean(forKey: "bool")
+            let floatValue = try CoreDataDefaults.float(forKey: "floatValue")
+            let intValue = try CoreDataDefaults.integer(forKey: "IntValue")
+            let dictionary = try CoreDataDefaults.dictionary(forKey: "dictionary")
+            let array = try CoreDataDefaults.array(forKey: "array")
+            let url = try CoreDataDefaults.codable(objectType: Struct2.self, forKey: "struct")
+            let boolValue = try CoreDataDefaults.boolean(forKey: "bool")
 
             print(floatValue! as Any)
             print(intValue! as Any)
