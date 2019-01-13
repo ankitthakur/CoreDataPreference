@@ -1,11 +1,11 @@
-## Current coverage for CoreDataDefaults.framework is `67.80%`
+## Current coverage for CoreDataDefaults.framework is `69.66%`
 Files changed | - | - 
 --- | --- | ---
 Logger.swift | `11.11%` | :skull:
 CoreDataDefaultsCollection.swift | `61.11%` | :warning:
-CoreDataManager.swift | `69.44%` | :warning:
-ManagedObectExtension.swift | `75.76%` | :warning:
-CoreDataDefaults.swift | `79.17%` | :warning:
+ManagedObectExtension.swift | `75.81%` | :warning:
+CoreDataManager.swift | `80.00%` | :white_check_mark:
+CoreDataDefaults.swift | `80.62%` | :white_check_mark:
 
 ---
 ## Current coverage for EncryptedCoreData.framework is `0.13%`

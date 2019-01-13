@@ -41,16 +41,16 @@ internal final class CoreDataManager {
         return backgroundmanagedObjectContext
     }
 
-    // If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
-    private(set) lazy var managedObjectContext: NSManagedObjectContext = {
-
-        let managedObjectContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
-
-        managedObjectContext.persistentStoreCoordinator = self.persistentStoreCoordinator
-
-        return managedObjectContext
-
-    }()
+//    // If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
+//    private(set) lazy var managedObjectContext: NSManagedObjectContext = {
+//
+//        let managedObjectContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
+//
+//        managedObjectContext.persistentStoreCoordinator = self.persistentStoreCoordinator
+//
+//        return managedObjectContext
+//
+//    }()
 
     private lazy var managedObjectModel: NSManagedObjectModel = {
         let bundle = Bundle(for: type(of: self))
@@ -87,15 +87,12 @@ internal final class CoreDataManager {
         
         if self.isStoreTypeInStore {
             coordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel)
-            do{
+            do {
                 try coordinator?.addPersistentStore(ofType: NSInMemoryStoreType,
                                                 configurationName: nil,
                                                 at: persistentStoreURL,
                                                 options: nil)
-            }
-            catch let error {
-                
-            }
+            } catch { }
             
         } else {
             coordinator = EncryptedStore.make(options: [EncryptedStorePassphraseKey: "SOME_PASSWORD",

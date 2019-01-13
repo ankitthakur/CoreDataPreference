@@ -1,22 +1,24 @@
-22:55:43.004 xcodebuild[39784:472409] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+00:16:04.065 xcodebuild[41844:509452] Sim iPhone XR: Unregistering for sim device notification with token 4
 
-22:55:43.008 xcodebuild[39784:472409] Sim iPhone XR has testmanagerd socket at /private/tmp/com.apple.launchd.ZebI1YFlRE/com.apple.testmanagerd.unix-domain.socket
+00:16:04.068 xcodebuild[41844:509452] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
 
-22:55:43.008 xcodebuild[39784:472409] Validating test connection socket path (/private/tmp/com.apple.launchd.ZebI1YFlRE/com.apple.testmanagerd.unix-domain.socket)
+00:16:04.070 xcodebuild[41844:509452] Sim iPhone XR has testmanagerd socket at /private/tmp/com.apple.launchd.ZebI1YFlRE/com.apple.testmanagerd.unix-domain.socket
 
-22:55:43.009 xcodebuild[39784:472409] Constructing transport for test connection socket
+00:16:04.070 xcodebuild[41844:509452] Validating test connection socket path (/private/tmp/com.apple.launchd.ZebI1YFlRE/com.apple.testmanagerd.unix-domain.socket)
 
-22:55:43.009 xcodebuild[39784:472409] Connected socket 28 to testmanagerd for Sim iPhone XR
+00:16:04.070 xcodebuild[41844:509452] Constructing transport for test connection socket
 
-22:55:43.013 xcodebuild[39784:472934] Initiating control session with controller protocol version 29
+00:16:04.070 xcodebuild[41844:509452] Connected socket 29 to testmanagerd for Sim iPhone XR
 
-22:55:43.019 xcodebuild[39784:472933] Got reply to control session initiation request (result:error): 29: (null)
+00:16:04.073 xcodebuild[41844:509493] Initiating control session with controller protocol version 29
 
-22:55:43.019 xcodebuild[39784:472933] Completed protocol exchange, test daemon is running v29.
+00:16:04.079 xcodebuild[41844:510088] Got reply to control session initiation request (result:error): 29: (null)
 
-22:55:43.727 xcodebuild[39784:472938] Got authorization request for pid 39988
+00:16:04.079 xcodebuild[41844:510088] Completed protocol exchange, test daemon is running v29.
 
-22:55:43.727 xcodebuild[39784:472401] Requesting authorization for pid 39988
+00:16:05.086 xcodebuild[41844:510088] Got authorization request for pid 42053
 
-22:55:43.728 xcodebuild[39784:472938] Got reply to authorization request for pid 39988 (result:error): 1: (null)
+00:16:05.086 xcodebuild[41844:510092] Requesting authorization for pid 42053
+
+00:16:05.087 xcodebuild[41844:510092] Got reply to authorization request for pid 42053 (result:error): 1: (null)
 
