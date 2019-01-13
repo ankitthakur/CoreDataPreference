@@ -32,14 +32,14 @@ struct Obfuscator {
      - returns: the obfuscated string in a byte array
      */
     func bytesByObfuscatingString(string: String) -> [UInt8] {
-        let text = [UInt8](string.utf8)
+        let textBytes = [UInt8](string.utf8)
         let cipher = [UInt8](self.salt.utf8)
         let length = cipher.count
         
         var encrypted = [UInt8]()
         
-        for t in text.enumerated() {
-            encrypted.append(t.element ^ cipher[t.offset % length])
+        for text in textBytes.enumerated() {
+            encrypted.append(text.element ^ cipher[text.offset % length])
         }
         
         #if DEVELOPMENT
@@ -67,8 +67,8 @@ struct Obfuscator {
         
         var decrypted = [UInt8]()
         
-        for k in key.enumerated() {
-            decrypted.append(k.element ^ cipher[k.offset % length])
+        for keyelement in key.enumerated() {
+            decrypted.append(keyelement.element ^ cipher[keyelement.offset % length])
         }
         
         return String(bytes: decrypted, encoding: .utf8)!
