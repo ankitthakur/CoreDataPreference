@@ -6,134 +6,27 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
+Pod::Spec.new do |spec|
+  spec.name          = 'CoreDataDefaults'
+  spec.version       = '0.0.3'
+  spec.license       = { :type => 'BSD' }
+  spec.homepage      = 'https://github.com/ankitthakur/CoreDataPreference'
+  spec.authors       = { "Ankit Thakur" => "ankitthakur85@gmail.com" }
+  spec.summary       = 'Using Core Data similar to UserDefault'
+  spec.source        = { :git => 'https://github.com/ankitthakur/CoreDataPreference.git', :tag => 'v0.0.3' }
+  spec.module_name   = 'CoreDataDefaults'
+  spec.swift_version = '4.2'
 
-  s.name         = "CoreDataDefaults"
-  s.version      = "0.0.3"
-  s.summary      = "Using Core Data similar to UserDefault"
+  spec.ios.deployment_target  = '9.0'
+  spec.osx.deployment_target  = '10.10'
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   Using core data as UserDefault settings with encryption (EncryptedCoreData)
-                   DESC
+  spec.source_files       = 'CoreDataDefaults/*.swift'
+  spec.ios.source_files   = 'CoreDataDefaults/*.swift'
 
-  s.homepage     = "https://github.com/ankitthakur/CoreDataPreference"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  spec.framework      = 'SystemConfiguration'
+  spec.ios.framework  = 'UIKit'
+  spec.osx.framework  = 'AppKit'
 
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
-  s.author             = { "Ankit Thakur" => "ankitthakur85@gmail.com" }
-  # Or just: s.author    = "Ankit Thakur"
-  # s.authors            = { "Ankit Thakur" => "ankitthakur85@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/Ankit Thakur"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # s.platform     = :ios
-  s.platform     = :ios, "8.4"
-  s.swift_version = '4.0'
-
-  #  When using multiple platforms
-  s.ios.deployment_target = "8.4"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
-
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
-  s.source       = { :git => "https://github.com/ankitthakur/CoreDataPreference.git", :tag => "#{s.version}" }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  s.ios.source_files  = "CoreDataDefaults/**/*.swift"
-  s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-
+  # spec.dependency 'SomeOtherPod'
 end
