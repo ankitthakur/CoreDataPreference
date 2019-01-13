@@ -3,13 +3,26 @@ Using core data as UserDefault settings with encryption (EncryptedCoreData)
 
 [![Build Status](https://travis-ci.org/ankitthakur/CoreDataPreference.svg?branch=master)](https://travis-ci.org/ankitthakur/CoreDataPreference)
 
-* Integration
+
 
 **Dependencies:**
-'EncryptedCoreData'
+'EncryptedCoreData' for securing db.
+'SwiftyBeaver' for logging purpose
 
-Just drag and drop the framework.
+**Installation**
 
+In Project pod file, add above 2 dependencies:
+
+```
+
+  # Pods for CoreDataDefaults
+  pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data', :commit => 'b97ffaf2f19dad4d1558bc9b0668cc2e09d17347'
+  pod 'SwiftyBeaver'
+  
+```
+
+Then add CoreDataDefaults.framework as `Embedded framework` in Main project
+[![Embedded framework](https://github.com/ankitthakur/CoreDataPreference/blob/master/embedded_binary.png)]
 
 Code Sample
 
