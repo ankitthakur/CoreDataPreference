@@ -83,11 +83,28 @@ Here is the Swift Lint Report:
     Linting Swift files at paths
     Linting 'ManagedObectExtension.swift' (1/9)
     Linting 'Logger.swift' (2/9)
-    Linting 'Obfuscator.swift' (3/9)
-    Linting 'CoreDataManager.swift' (4/9)
-    Linting 'CoreDataPrefCollection.swift' (5/9)
+    Linting 'CoreDataManager.swift' (3/9)
+    Linting 'Obfuscator.swift' (4/9)
+    Linting 'CoreDataDefaultsCollection.swift' (5/9)
     Linting 'CDDefault+CoreDataClass.swift' (6/9)
     Linting 'CDDefault+CoreDataProperties.swift' (7/9)
     Linting 'CoreDataDefaults.swift' (8/9)
     Linting 'CoreDataDefaultsTests.swift' (9/9)
+    Done linting! Found 0 violations, 0 serious in 9 files.
 
+**Contributors**
+To Build the framework and for generating these reports, execute below commands:
+```
+#Build the project
+xcodebuild clean build -workspace ./CoreDataDefaults.xcworkspace -scheme CoreDataDefaults -sdk iphonesimulator12.1
+
+# Run Test Cases
+xcodebuild test -workspace CoreDataDefaults.xcworkspace -scheme CoreDataDefaults  -sdk iphonesimulator12.1 -destination 'platform=iOS Simulator,name=iPhone XR' -resultBundlePath TestResults
+
+# Generating TestResults html report
+xchtmlreport -r TestResults
+
+# Generating Code coverage report:
+xcov -w CoreDataDefaults.xcworkspace -s CoreDataDefaults -o xcov_output --markdown_report
+
+```
