@@ -4,6 +4,7 @@ Using core data as UserDefault settings with encryption (EncryptedCoreData)
 
 [![Build Status](http://img.shields.io/travis/ankitthakur85/CoreDataPreference.svg?style=flat)](https://travis-ci.org/ankitthakur/CoreDataPreference)
 
+[![Build Status](https://travis-ci.org/ankitthakur85/CoreDataPreference.png?branch=master)](https://travis-ci.org/ankitthakur85/CoreDataPreference)
 
 * Integration
 
