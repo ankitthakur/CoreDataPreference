@@ -120,7 +120,7 @@ class CoreDataDefaultsTests: XCTestCase {
             let value: [String] = ["key1", "key2"]
             try CoreDataDefaults.set(value: value, forKey: "arrayValue")
             let arrayValue = try CoreDataDefaults.array(forKey: "arrayValue") as? [String]
-            
+            try CoreDataDefaults.remove(valueForKey: "arrayValue")
             XCTAssert(value == arrayValue!, "array values are incorrect")
             
         } catch let error {

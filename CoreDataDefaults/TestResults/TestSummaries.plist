@@ -8,7 +8,7 @@
 	<array>
 		<dict>
 			<key>DiagnosticsDirectory</key>
-			<string>CoreDataDefaultsTests-C5182950-40A5-4D7F-8AD5-98CF32DAFF7D</string>
+			<string>CoreDataDefaultsTests-D6AEFC84-50A8-46C2-A5A6-BE7D153A150D</string>
 			<key>ProjectPath</key>
 			<string>CoreDataDefaults.xcodeproj</string>
 			<key>TargetName</key>
@@ -23,22 +23,22 @@
 			<array>
 				<dict>
 					<key>Duration</key>
-					<real>0.05639195442199707</real>
+					<real>0.060870051383972168</real>
 					<key>Subtests</key>
 					<array>
 						<dict>
 							<key>Duration</key>
-							<real>0.054208993911743164</real>
+							<real>0.058404922485351562</real>
 							<key>Subtests</key>
 							<array>
 								<dict>
 									<key>Duration</key>
-									<real>0.052808046340942383</real>
+									<real>0.05680394172668457</real>
 									<key>Subtests</key>
 									<array>
 										<dict>
 											<key>Duration</key>
-											<real>0.026957988739013672</real>
+											<real>0.030102968215942383</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testArray()</string>
 											<key>TestName</key>
@@ -48,11 +48,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>E69CBC1A-6E80-493F-BCCE-41C35906FC1C</string>
+											<string>83925997-838B-4F78-B60A-11EF27A06DBB</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0026630163192749023</real>
+											<real>0.004568934440612793</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testBool()</string>
 											<key>TestName</key>
@@ -62,11 +62,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>5558554C-6C88-41D4-9031-B07F56B3851D</string>
+											<string>235CD9EE-1B8D-4370-995E-9F3A10C36FED</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0036820173263549805</real>
+											<real>0.0056560039520263672</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testDictionary()</string>
 											<key>TestName</key>
@@ -76,11 +76,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>7918EBF9-B14F-437E-B40D-4F9A7585BCA1</string>
+											<string>B3488CA7-9BDD-4306-8282-63CE18B8A79F</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0017229318618774414</real>
+											<real>0.0024480819702148438</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testDouble()</string>
 											<key>TestName</key>
@@ -90,11 +90,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>596AACBC-93F3-4AB0-BC94-EDDB5F690895</string>
+											<string>96A627E2-5FF0-4DC4-A472-26DA6D9F8025</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.004156947135925293</real>
+											<real>0.0019370317459106445</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testFloat()</string>
 											<key>TestName</key>
@@ -104,11 +104,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>22C4851F-DC82-49F7-BE62-FF56F2902E31</string>
+											<string>0F7DD908-3D04-4F3D-8003-24DCF4D87F74</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0027679204940795898</real>
+											<real>0.0018200874328613281</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testInt()</string>
 											<key>TestName</key>
@@ -118,11 +118,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>B1770945-0FC0-4375-973E-74A7EC6825A8</string>
+											<string>9DF86E4C-806C-4AAD-942E-10FEA83E23F6</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0014649629592895508</real>
+											<real>0.0016219615936279297</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testString()</string>
 											<key>TestName</key>
@@ -132,11 +132,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>5C15C5BE-1351-423B-B288-097E1A19C002</string>
+											<string>70E9E385-AEF9-4A70-B36B-0E8270A061FE</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0019620656967163086</real>
+											<real>0.0024549961090087891</real>
 											<key>TestIdentifier</key>
 											<string>CoreDataDefaultsTests/testStruct()</string>
 											<key>TestName</key>
@@ -146,7 +146,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>581E2C5B-3CD4-424A-8C84-CC90891020B7</string>
+											<string>1FCBFE7D-D603-4490-95C2-AD8CD596F9F7</string>
 										</dict>
 									</array>
 									<key>TestIdentifier</key>

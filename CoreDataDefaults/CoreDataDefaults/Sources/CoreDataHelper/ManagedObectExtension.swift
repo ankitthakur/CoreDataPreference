@@ -80,4 +80,30 @@ internal extension NSManagedObject {
             throw DBModelError.jsonParseError("failed to save \(key) in db - \(error.localizedDescription)")
         }
     }
+    
+    class func remove<T: NSManagedObject>(_ tableName: T.Type, forKey key: String) throws where T: ManagedObjectProtocol {
+        // store the values in core data
+        let managedObjectContext = CoreDataManager.shared.backgroundManagedObjectContext()
+        managedObjectContext.name = "Context remove - \(NSStringFromClass(T.self))"
+        var dbModel: T?
+        do {
+            let fetchRequest: NSFetchRequest = T.fetchrequest(entityClass: tableName)
+            fetchRequest.predicate = NSPredicate(format: "key matches %@", key)
+            fetchRequest.returnsObjectsAsFaults = false
+            let fetchResults = try managedObjectContext.fetch(fetchRequest)
+            if fetchResults.count == 1 {
+                dbModel = fetchResults.first as? T
+                if dbModel?.key != nil && dbModel?.value != nil {
+                    managedObjectContext.delete(dbModel!)
+                    try managedObjectContext.save()
+                }
+            } else if fetchResults.isEmpty {
+                throw DBModelError.jsonParseError("no value for \(key) is found in db")
+            } else if !fetchResults.isEmpty {
+                throw DBModelError.jsonParseError("more than 1 \(key) value in db")
+            }
+        } catch let error {
+            throw DBModelError.jsonParseError("failed to save \(key) in db - \(error.localizedDescription)")
+        }
+    }
 }

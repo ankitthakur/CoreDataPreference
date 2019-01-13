@@ -126,4 +126,12 @@ public extension CoreDataDefaults {
             throw error
         }
     }
+    static func remove(valueForKey key: String) throws {
+        do {
+            try CDDefault.remove(CDDefault.self, forKey: key)
+        } catch let error {
+            print(error)
+            throw error
+        }
+    }
 }
