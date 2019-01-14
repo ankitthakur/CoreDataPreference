@@ -3,6 +3,7 @@ Using core data as UserDefault settings with encryption (EncryptedCoreData)
 
 [![Build Status](https://travis-ci.org/ankitthakur/CoreDataPreference.svg?branch=master)](https://travis-ci.org/ankitthakur/CoreDataPreference)
 [![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ankitthakur/CoreDataPreference/LICENSE.txt?branch=master)
+[![Coverage Status](https://coveralls.io/repos/realm/SwiftCov/badge.svg)](https://codecov.io/github/ankitthakur/CoreDataPreference)
 
 
 **Dependencies:**
