@@ -18,3 +18,4 @@ after_success:
   - xcodebuild test -workspace CoreDataDefaults.xcworkspace -scheme CoreDataDefaults  -sdk iphonesimulator12.1 -destination 'platform=iOS Simulator,name=iPhone XR' -resultBundlePath TestResults
   - xcov -w CoreDataDefaults.xcworkspace -s CoreDataDefaults -o xcov_output --markdown_report --coveralls_service_name travis-ci --coveralls_service_job_id $TRAVIS_JOB_ID
   - xchtmlreport -r TestResults
+  - bash <(curl -s https://codecov.io/bash) -t 35f8119c-f0b7-403c-8968-06ff122d69d9
