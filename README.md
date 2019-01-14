@@ -2,7 +2,7 @@
 Using core data as UserDefault settings with encryption (EncryptedCoreData)
 
 [![Build Status](https://travis-ci.org/ankitthakur/CoreDataPreference.svg?branch=master)](https://travis-ci.org/ankitthakur/CoreDataPreference)
-
+[![GitHub license](https://img.shields.io/badge/license-Apache%20Version%202.0-blue.svg)](https://github.com/ankitthakur/CoreDataPreference/LICENSE.txt?branch=master)
 
 
 **Dependencies:**
